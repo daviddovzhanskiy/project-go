@@ -8,9 +8,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
-h1, h2 {
+h1, h2, p, span, blockquote {
   margin: 0;
   padding: 0px;
+}
+
+ol {
+  list-style: none;
 }
 
 blockquote {
@@ -18,13 +22,14 @@ blockquote {
 }
 
 .wrapper {
-  width: 1200px;
+  width: 1210px;
   padding: 30px;
   margin: 0 auto;
 }
 
 .container {
   margin: 0 auto;
+  margin-bottom: 100px;
   height: 823px;
 
   background-image: url("img/banner-image.svg");
@@ -48,8 +53,160 @@ blockquote {
   line-height: 50px;
 }
 
-/* .banner-image {
-  width: 675px;
-  height: 300px;
-  object-position: bottom;
+.halls {
+  margin: 0 auto;
+}
+
+.halls-title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.halls-subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-transform: uppercase;
+  white-space: pre-line;
+}
+
+.halls-container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  height: 710px;
+  background-image: url("img/80s-vibes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.halls-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  height: 710px;
+  background-image: url("img/star-wars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.halls-container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  height: 710px;
+  background-image: url("img/wild-west.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.halls-container-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  height: 710px;
+  background-image: url("img/neon-style.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reservation-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.reserv {
+  margin-bottom: 100px;
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.about-text {
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+white-space: pre-line;
+margin-bottom: 78px;
+}
+
+.main-quote {
+  display: block;
+  text-align: left;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  white-space: pre-line;
+  margin-bottom: 40px;
+}
+.main-quote::before {
+  content: "“ ";
+  color: #6C0287;
+  white-space: pre-wrap;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px; 
+  text-transform: uppercase;
+}
+
+.main-quote::after {
+  content: " ”";
+  color: #6C0287;
+  white-space: pre-wrap;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px; 
+  text-transform: uppercase;
+}
+
+.author {
+  text-align: left;
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: none;
+  font-style: normal;
+  white-space: pre-line;
+  float: right;
+}
+
+/* .author::before {
+  content: "";
+  display: inline-block;
+  background-image: url("img/boss-photo.svg");
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  background-size: contain;
 } */
+
+.kek {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.s {
+  margin-right: 30px;
+}

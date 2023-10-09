@@ -24,74 +24,29 @@
       </div>
     </header>
   
-    <!-- <main class="main">
-      <section class="what-we-have">
-        <div class="services">
-          <h2>У нас есть всё для классного отдыха с друзьями!</h2>
-          <ul>
-            <li>
-              <figure>
-                <img src="img/vr.jpg" height="228" alt="VR гарнитура">
-                <figcaption>VR очки</figcaption>
-              </figure>
-            </li>
-    
-            <li>
-              <figure>
-                <img src="img/audio.jpg" height="228" alt="Аудио система">
-                <figcaption>Аудио система 5.1 с отличным звуком</figcaption>
-              </figure>
-            </li>
-    
-            <li>
-              <figure>
-                <img src="img/micro.jpg" height="228" alt="Девушка с микрофоном">
-                <figcaption>Караоке (4 микрофона)</figcaption>
-              </figure>
-            </li>
-    
-            <li>
-              <figure>
-                <img src="img/game.jpg" height="228" alt="Настольная игра">
-                <figcaption>Настольные игры</figcaption>
-              </figure>
-            </li>
-    
-            <li>
-              <figure>
-                <img src="img/netflix.jpg" height="228" alt="Телевизор">
-                <figcaption>Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</figcaption>
-              </figure>
-            </li>
-    
-            <li>
-              <figure>
-                <img src="img/sony.jpg" height="228" alt="PlayStation">
-                <figcaption>PlayStation 5</figcaption>
-              </figure>
-            </li>
-          </ul>
-        </div>
-      </section>
-    
+    <main class="main">
       <section class="our-halls" id="our-halls">
         <div class="halls">
-          <h2>Наши залы</h2>
+          <h2 class="halls-title">Наши залы</h2>
           <ol>
-            <li>
-              80's vibes
+            <li class="halls-container-1">
+              <span class="halls-subtitle">80's 
+                vibes</span>
             </li>
     
-            <li>
-              Star wars
+            <li class="halls-container-2">
+              <span class="halls-subtitle">Star 
+                wars</span>
             </li>
     
-            <li>
-              Wild west
+            <li class="halls-container-3">
+              <span class="halls-subtitle">Wild 
+                west</span>
             </li>
     
-            <li>
-              Neon style
+            <li class="halls-container-4">
+              <span class="halls-subtitle">Neon 
+                style</span>
             </li>
           </ol>
         </div>
@@ -99,11 +54,9 @@
     
       <section class="reservation" id="reservation">
         <div class="reserv">
-          <h2>Забронировать зал просто</h2>
+          <h2 class="reservation-title">Забронировать зал просто</h2>
           <form id="whole-form" method="POST">
             <fieldset>
-              <legend>Выбери зал</legend>
-  
               <label>
                 <input type="radio" name="style" value="1st-style">80's vibes
               </label>
@@ -180,49 +133,60 @@
               <legend>Выбери дату и время</legend>
         
               <label>
-                Дата <input type="date" name="date" required>
+                Дата* <input type="date" name="date" required>
               </label>
         
               <label>
-                Время <input type="time" name="time" required>
+                Время* <input type="time" name="time" required>
               </label>
         
               <label>
-                Сколько человек <input type="number" name="people-count" required>
+                Количество человек* <input type="number" name="people-count" required>
               </label>
         
               <label>
-                Имя <input type="text" name="name" required>
+                Имя* <input type="text" name="name" required>
               </label>
         
               <label>
-                Фамилия <input type="text" name="surname" required>
+                Фамилия* <input type="text" name="surname" required>
               </label>
         
               <label>
-                Телефон <input type="tel" name="tel" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" title="+7-(999)-999-99-99" maxlength="12" required>
+                Номер телефона* <input type="tel" name="tel" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" title="+7-(999)-999-99-99" maxlength="12" required>
               </label>
-  
+
               <label>
-                E-mail <input type="email" name="email" required>
+                <input type="checkbox" name="+18" value="true" required> Я старше 18 лет<br>
               </label>
             </fieldset>
         
             <button type="submit" formaction="https://jsonplaceholder.typicode.com/posts">Забронировать</button>
+            <label>
+              <input type="checkbox" name="agree" value="true" required>Согласен на обработку данных
+            </label>
           </form>
         </div>
       </section>
   
       <section class="about-us" id="about-us">
         <div class="about">
-          <h2>О нас</h2>
-          <p>Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной части города.</p>
-          <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
-          <blockquote><b>GAME OVER - </b>это место незабываемых впечатлений <cite><i>Аркадий Абакшин, создатель игровой территории GAME OVER</i></cite></blockquote>
+          <h2 class="about-title">О нас</h2>
+          <p class="about-text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города. 
+            
+            Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+          <blockquote class="main-quote">GAME OVER — 
+            это место незабываемых впечатлени</blockquote>
+          <div class="kek">
+            <img class="s" src="img/boss-photo.svg" alt="">
+            <cite class="author">Аркадий Абакшин, 
+              создатель игровой территории 
+              GAME OVER</cite>
+          </div>
         </div>
       </section>
   
-      <section class="our-reviews" id="our-reviews">
+      <!-- <section class="our-reviews" id="our-reviews">
         <div class="reviews">
           <h2>Отзывы посетителей</h2>
           <ul>
@@ -251,9 +215,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="frequent-questions" id="frequent-questions">
+      <!-- <section class="frequent-questions" id="frequent-questions">
         <div class="questions">
           <h2>Частые вопросы</h2>
           <ul>
@@ -264,10 +228,10 @@
             <li class="element">Какая комната самая популярная?</li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
   
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="contacts" id="contacts">
         <h2>Контакты</h2>
   
@@ -284,7 +248,7 @@
           </ul>
         </nav>
       </div>
-    </footer> -->
+    </footer>  -->
   </div>
 </body>
 </html>
