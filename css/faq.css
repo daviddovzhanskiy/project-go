@@ -4,15 +4,11 @@ ul {
 
 .questions-title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
   text-transform: uppercase;
-}
-
-.questions {
-  margin-bottom: 100px;
 }
 
 .element {

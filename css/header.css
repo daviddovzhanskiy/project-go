@@ -1,25 +1,25 @@
-.container {
-  margin: 0 auto;
-  margin-bottom: 100px;
+.header-div {
   height: 823px;
+  margin-bottom: 50px;
+  margin-top: 146px;
 
   background-image: url("../img/banner-image.svg");
-  background-position: bottom right;
+  background-position: bottom right 30px;
   background-repeat: no-repeat;
   background-size: 675px;
 }
 
 .title {
-  margin-top: 116px;
   font-weight: 900;
   font-size: 150px;
   line-height: 150px;
   text-transform: uppercase;
+  letter-spacing: -15px;
 }
 
 .subtitle {
-	margin-left: 100px;
-  font-weight: 900;
+	padding-left: 100px;
+  font-weight: 400;
   font-size: 28px;
   line-height: 50px;
 }
