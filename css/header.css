@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  height: 823px;
+
+  background-image: url("../img/banner-image.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 675px;
+}
+
+.title {
+  margin-top: 116px;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 150px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+	margin-left: 100px;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 50px;
+}
