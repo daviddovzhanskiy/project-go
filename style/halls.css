@@ -1,0 +1,48 @@
+.halls__title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.halls__subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-transform: uppercase;
+  white-space: pre-line;
+}
+
+.halls__element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  height: 710px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.halls__element:last-child {
+  margin-bottom: 0;
+}
+
+.halls__element_img_80s {
+  background-image: url("../img/80s-vibes.jpg");
+}
+
+.halls__element_img_star-wars {
+  background-image: url("../img/star-wars.jpg");
+}
+
+.halls__element_img_wild-west {
+  background-image: url("../img/wild-west.jpg");
+}
+
+.halls__element_img_neon {
+  background-image: url("../img/neon-style.jpg");
+}

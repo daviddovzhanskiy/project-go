@@ -7,7 +7,7 @@
   background-size: 675px;
 }
 
-.title {
+.banner__title {
   font-weight: 900;
   font-size: 150px;
   line-height: 150px;
@@ -15,7 +15,7 @@
   letter-spacing: -15px;
 }
 
-.subtitle {
+.banner__subtitle {
 	padding-left: 100px;
   font-weight: 400;
   font-size: 28px;

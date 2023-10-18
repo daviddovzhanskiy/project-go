@@ -1,8 +1,4 @@
-ul {
-  padding-left: 0;
-}
-
-.questions-title {
+.faq__title {
   text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
@@ -11,7 +7,7 @@ ul {
   text-transform: uppercase;
 }
 
-.element {
+.faq__element {
   background-color: #fff;
   color: #1C1A1A;
   font-weight: 700;
@@ -24,16 +20,16 @@ ul {
   align-items: center;
 }
 
-.element:not(:last-child)  {
+.faq__element:not(:last-child)  {
   margin-bottom: 20px;
 }
 
-.element:nth-child(even) {
+.faq__element:nth-child(even) {
   color: #fff;
   background-color: #440F51;
 }
 
-.element:nth-child(even)::after {
+.faq__element:nth-child(even)::after {
   content: "";
   background-image: url("../img/open.svg");
   background-repeat: no-repeat;
@@ -45,7 +41,7 @@ ul {
   right: 65px;
 }
 
-.element:nth-child(odd)::after {
+.faq__element:nth-child(odd)::after {
   content: "";
   background-image: url("../img/open-purple.svg");
   background-repeat: no-repeat;
