@@ -1,7 +1,5 @@
-.header-div {
+.banner {
   height: 823px;
-  margin-bottom: 50px;
-  margin-top: 146px;
 
   background-image: url("../img/banner-image.svg");
   background-position: bottom right 30px;
