@@ -16,36 +16,27 @@ margin-bottom: 78px;
 }
 
 .about__quote {
-  display: block;
+  display: inline;
   text-align: left;
   font-weight: 400;
   font-size: 44px;
   line-height: 50px;
   text-transform: uppercase;
-  white-space: pre-wrap;
+  white-space: pre-line;
   margin-bottom: 40px;
-}
-.about__quote::before {
-  content: "“ ";
-  color: #6C0287;
-  white-space: pre-wrap;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 50px; 
-  text-transform: uppercase;
+  margin-left: 15px;
 }
 
 .about__quote::after {
   content: " ”";
   color: #6C0287;
-  white-space: pre-wrap;
   font-size: 44px;
   font-weight: 900;
   line-height: 50px; 
   text-transform: uppercase;
 }
 
-.about__cite-area {
+.about__box-author {
   display: flex;
   align-items: center;
   justify-content: right;
@@ -67,3 +58,25 @@ margin-bottom: 78px;
   float: right;
 }
 
+.about__box-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__left-image {
+  width: 1500px;
+  height: 600px;
+  padding-right: 40px;
+}
+
+.about__box-quote {
+  display: flex;
+}
+
+.about__qoute-symbol {
+  color: #6C0287;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px; 
+  text-transform: uppercase;
+}
