@@ -9,22 +9,21 @@
 
 .about__box-content {
   display: flex;
-  justify-content: space-between;
 }
 
 .about__left-content {
-  min-width: 680px;
-  min-height: 596px;
+  margin-right: 80px;
+  max-width: 600px;
+  max-height: 596px;
 }
 
 .about__left-image {
   width: 100%;
-  padding-right: 80px;
 }
 
 .about__right-content {
-  min-width: 500px;
-  min-height: 595px;
+  max-width: 500px;
+  max-height: 595px;
 }
 
 .about__right-text {
