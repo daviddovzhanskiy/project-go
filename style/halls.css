@@ -1,3 +1,9 @@
+.halls__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .halls__title {
   text-align: center;
   margin-bottom: 60px;
@@ -13,22 +19,17 @@
   font-size: 70px;
   line-height: 80px;
   text-transform: uppercase;
-  white-space: pre-line;
 }
 
 .halls__element {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
-  height: 710px;
+  width: 580px;
+  height: 349px;
 
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.halls__element:last-child {
-  margin-bottom: 0;
 }
 
 .halls__element_img_80s {
