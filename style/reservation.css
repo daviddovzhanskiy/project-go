@@ -7,6 +7,77 @@
   text-transform: uppercase;
 }
 
+.reservation__subtitle {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.reservation-page {
+  background-color: #440F51;
+}
+
+.section-custom {
+  padding: 80px 0;
+}
+
+.reservation__fieldset {
+  border: none;
+  padding: 0;
+}
+
+.reservation__box-first-part {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.reservation__label-first-part {
+  padding: 7px 15px 8px;
+  border-radius: 8px;
+  background-color: #FFF;
+  user-select: none;
+  
+  width: 250px;
+  height: 55px;
+  flex-shrink: 0;
+
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.reservation__label-first-part:has(.reservation__input-first-part:checked) {
+	background-color: #cf94da;
+}
+
+.reservation__label-first-part:hover {
+	color: #242323;
+}
+
+.reservation__input-first-part {
+  display: none;
+}
+
+.reservation__container-small {
+  max-width: 1040px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.reservation__box-second-part {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+/* БЫЛО, ВОЗМОЖНО УБРАТЬ */
+
 .reservation__sending-area {
   padding-top: 5px;
 }

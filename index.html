@@ -123,7 +123,7 @@
       </div>
     </section>
 
-    <section class="section halls-page" id="halls">
+    <section class="section section-plus-padding halls-page" id="halls">
       <div class="halls container">
         <h2 class="halls__title">Наши залы</h2>
         <ol class="halls__list">
@@ -150,114 +150,127 @@
       </div>
     </section>
   
-    <section class="section reservation-page" id="reservation">
+    <section class="section-custom reservation-page" id="reservation">
       <div class="reservation container">
-        <h2 class="reservation__title">Забронировать</h2>
+        <h2 class="reservation__title">Забронировать зал просто</h2>
+        <p class="reservation__subtitle">Выбери зал</p>
         <form class="reservation__form" method="POST">
           <fieldset class="reservation__fieldset">
-            <label class="reservation__label">
-              <input class="reservation__input" type="radio" name="style" value="1st-style">80's vibes
-            </label>
-      
-            <label class="reservation__label">
-              <input class="reservation__input" type="radio" name="style" value="2nd-style">Star wars
-            </label>
-      
-            <label class="reservation__label">
-              <input class="reservation__input" type="radio" name="style" value="3rd-style">Wild west
-            </label>
-      
-            <label class="reservation__label">
-              <input class="reservation__input" type="radio" name="style" value="4th-style">Neon style
-            </label>
-          </fieldset>
-      
-          <fieldset class="reservation__fieldset">
-            <legend>Собери набор развлечений</legend>
-            <fieldset class="reservation__fieldset">
-              <legend  class="reservation__legend">Приставка</legend>
-      
-              <label class="reservation__label">
-                <input class="reservation__input" type="radio" name="console" value="1st-console">Playstation
-              </label>
-      
-              <label class="reservation__label">
-                <input class="reservation__input" type="radio" name="console" value="2nd-console">Sega Mega Drive
-              </label>
-      
-              <label class="reservation__label">
-                <input class="reservation__input" type="radio" name="console" value="3rd-console">X-box One S
-              </label>
-      
-              <label class="reservation__label">
-                <input class="reservation__input" type="radio" name="console" value="4th-console">Dendy
-              </label>
-            </fieldset>
-      
-            <fieldset class="reservation__fieldset">
-              <legend  class="reservation__legend">Настольные игры</legend>
-              
-              <label class="reservation__label">
-                <input class="reservation__input" type="checkbox" name="game" value="1st-game">Jenga
-              </label>
-      
-              <label class="reservation__label">
-                <input class="reservation__input" type="checkbox" name="game" value="2nd-game">Monopoly
-              </label>
-      
-              <label class="reservation__label">
-                <input class="reservation__input" type="checkbox" name="game" value="3rd-game">Манчкин
-              </label>
-      
-              <label class="reservation__label">
-                <input class="reservation__input" type="checkbox" name="game" value="4th-game">Alias
-              </label>
-            </fieldset>
-      
-            <fieldset class="reservation__fieldset">
-              <legend  class="reservation__legend">Дополнительно</legend>
-              
-              <label class="reservation__label">
-                <input class="reservation__input" type="checkbox" name="extra" value="1st-extra">Караоке
-              </label>
-      
-              <label  class="reservation__label">
-                <input class="reservation__input" type="checkbox" name="extra" value="2nd-extra">VR
-              </label>
-            </fieldset>
-          </fieldset>
-      
-          <fieldset class="reservation__fieldset">
-            <legend  class="reservation__legend">Выбери дату и время</legend>
-      
-            <label  class="reservation__label">
-              Дата* <input class="reservation__input" type="date" name="date" required>
-            </label>
-      
-            <label  class="reservation__label">
-              Время* <input class="reservation__input" type="time" name="time" required>
-            </label>
-      
-            <label  class="reservation__label">
-              Количество человек* <input class="reservation__input" type="number" name="people-count" required>
-            </label>
-      
-            <label  class="reservation__label">
-              Имя* <input class="reservation__input" type="text" name="name" required>
-            </label>
-      
-            <label  class="reservation__label">
-              Фамилия* <input class="reservation__input" type="text" name="surname" required>
-            </label>
-      
-            <label  class="reservation__label">
-              Номер телефона* <input class="reservation__input" type="tel" name="tel" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" title="+7-(999)-999-99-99" maxlength="12" required>
-            </label>
 
-            <label  class="reservation__label">
-              <input class="reservation__input" type="checkbox" name="+18" value="true" required> Я старше 18 лет<br>
-            </label>
+            <div class="reservation__box-first-part">
+              <label class="reservation__label-first-part">
+                <input class="reservation__input-first-part" type="radio" name="style" value="1st-style">80's vibes
+              </label>
+        
+              <label class="reservation__label-first-part">
+                <input class="reservation__input-first-part" type="radio" name="style" value="2nd-style">Star wars
+              </label>
+        
+              <label class="reservation__label-first-part">
+                <input class="reservation__input-first-part" type="radio" name="style" value="3rd-style">Wild west
+              </label>
+        
+              <label class="reservation__label-first-part">
+                <input class="reservation__input-first-part" type="radio" name="style" value="4th-style">Neon style
+              </label>
+            </div>
+
           </fieldset>
+          
+          <div class="reservation__container-small">
+            <fieldset class="reservation__fieldset">
+              <legend class="reservation__legend">Собери набор развлечений</legend>
+
+              <div class="reservation__box-second-part">
+                <div class="reservation__box-second-part-left">
+                  <fieldset class="reservation__fieldset">
+                    <legend  class="reservation__legend">Приставка</legend>
+            
+                    <label class="reservation__label">
+                      <input class="reservation__input" type="radio" name="console" value="1st-console">Playstation
+                    </label>
+            
+                    <label class="reservation__label">
+                      <input class="reservation__input" type="radio" name="console" value="2nd-console">Sega Mega Drive
+                    </label>
+            
+                    <label class="reservation__label">
+                      <input class="reservation__input" type="radio" name="console" value="3rd-console">X-box One S
+                    </label>
+            
+                    <label class="reservation__label">
+                      <input class="reservation__input" type="radio" name="console" value="4th-console">Dendy
+                    </label>
+                  </fieldset>
+                </div>
+          
+                <fieldset class="reservation__fieldset">
+                  <legend class="reservation__legend">Настольные игры</legend>
+                  
+                  <label class="reservation__label">
+                    <input class="reservation__input" type="checkbox" name="game" value="1st-game">Jenga
+                  </label>
+          
+                  <label class="reservation__label">
+                    <input class="reservation__input" type="checkbox" name="game" value="2nd-game">Monopoly
+                  </label>
+          
+                  <label class="reservation__label">
+                    <input class="reservation__input" type="checkbox" name="game" value="3rd-game">Манчкин
+                  </label>
+          
+                  <label class="reservation__label">
+                    <input class="reservation__input" type="checkbox" name="game" value="4th-game">Alias
+                  </label>
+                </fieldset>
+          
+                <fieldset class="reservation__fieldset">
+                  <legend  class="reservation__legend">Дополнительно</legend>
+                  
+                  <label class="reservation__label">
+                    <input class="reservation__input" type="checkbox" name="extra" value="1st-extra">Караоке
+                  </label>
+          
+                  <label  class="reservation__label">
+                    <input class="reservation__input" type="checkbox" name="extra" value="2nd-extra">VR
+                  </label>
+                </fieldset>
+              </div>
+
+            </fieldset>
+        
+            <fieldset class="reservation__fieldset">
+              <legend  class="reservation__legend">Выбери дату и время</legend>
+        
+              <label  class="reservation__label">
+                Дата* <input class="reservation__input" type="date" name="date" required>
+              </label>
+        
+              <label  class="reservation__label">
+                Время* <input class="reservation__input" type="time" name="time" required>
+              </label>
+        
+              <label  class="reservation__label">
+                Количество человек* <input class="reservation__input" type="number" name="people-count" required>
+              </label>
+        
+              <label  class="reservation__label">
+                Имя* <input class="reservation__input" type="text" name="name" required>
+              </label>
+        
+              <label  class="reservation__label">
+                Фамилия* <input class="reservation__input" type="text" name="surname" required>
+              </label>
+        
+              <label  class="reservation__label">
+                Номер телефона* <input class="reservation__input" type="tel" name="tel" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" title="+7-(999)-999-99-99" maxlength="12" required>
+              </label>
+  
+              <label  class="reservation__label">
+                <input class="reservation__input" type="checkbox" name="+18" value="true" required> Я старше 18 лет<br>
+              </label>
+            </fieldset>
+          </div>
 
           <div class="reservation__sending-area">
             <button class="reservation__button" type="submit" formaction="https://jsonplaceholder.typicode.com/posts">Забронировать</button>
