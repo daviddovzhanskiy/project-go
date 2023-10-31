@@ -1,7 +1,12 @@
+.contacts-page {
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+}
+
 .contacts__box-content {
   display: flex;
   justify-content: space-between;
   gap: 60px;
+  margin-bottom: 155px;
 }
 
 .contacts__box-left {
@@ -80,3 +85,20 @@
     fill: rgb(49, 0, 128);
   }
 } */
+
+.contacts__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__box-footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.contacts__footer-text {
+  font-size: 14px;
+  line-height: 16px;
+}
