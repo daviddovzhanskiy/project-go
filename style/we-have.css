@@ -1,0 +1,65 @@
+.we-have__box-title {
+  width: 800px;
+  margin: 0 auto 40px;
+}
+
+.we-have__title {
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+} 
+
+.we-have__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.we-have__item {
+  display: flex;
+  align-items: flex-end;
+  padding: 6px 40px;
+  width: 380px;
+  height: 228px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.we-have__item_background_vr {
+  background-image: url(../img/vr.png);
+}
+
+.we-have__item_background_audio {
+  background-image: url(../img/audio.png);
+}
+
+.we-have__item_background_karaoke {
+  background-image: url(../img/karaoke.png);
+}
+
+.we-have__item_background_games {
+  background-image: url(../img/games.png);
+}
+
+.we-have__item_background_films {
+  background-image: url(../img/films.png);
+}
+
+.we-have__item_background_playstation {
+  background-image: url(../img/playstation.png);
+}
+
+.we-have__item-text {
+  height: 56px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  white-space: pre-line;
+}
+
