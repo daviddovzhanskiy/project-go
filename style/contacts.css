@@ -1,3 +1,18 @@
+.contacts__box-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.contacts__box-left {
+  width: 440px;
+}
+
+.contacts__map-image {
+  width: 680px;
+  height: 274px;
+}
+
 .contacts__title {
   text-align: center;
   margin-bottom: 40px;
