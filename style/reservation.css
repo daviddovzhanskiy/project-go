@@ -71,9 +71,25 @@
   margin: 0 auto;
 }
 
+.reservation__legend {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
 .reservation__box-second-part {
   display: flex;
   margin-bottom: 60px;
+
+  justify-content: space-between;
+}
+
+
+.reservation__box-second-part-items {
+  display: flex;
+  flex-direction: column;
 }
 
 /* БЫЛО, ВОЗМОЖНО УБРАТЬ */
