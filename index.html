@@ -16,6 +16,50 @@
   <link rel="stylesheet" href="style/index.css">
 </head>
 <body сlass="body">
+  <header class="header">
+    <div class="container">
+      <div class="header__box">
+
+        <div class="header__box-logo">
+          <a class="header__logo" href="index.html"></a>
+        </div>
+
+        <div class="header__box-nav">
+          <nav class="header__navigation">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="#halls">Залы</a>
+              </li>
+  
+              <li class="header__item">
+                <a class="header__link" href="#about">О нас</a>
+              </li>
+  
+              <li class="header__item">
+                <a class="header__link" href="#reservation">Бронь</a>
+              </li>
+  
+              <li class="header__item">
+                <a class="header__link" href="#reviews">Отзывы</a>
+              </li>
+  
+              <li class="header__item">
+                <a class="header__link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header__box-button">
+          <button type="button" class="header__button">
+            Заказать звонок
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
   <main class="main">
     <section class="section welcome-page">
       <div class="banner container">
@@ -60,7 +104,7 @@
       </div>
     </section>
 
-    <section class="section halls-page">
+    <section class="section halls-page" id="halls">
       <div class="halls container">
         <h2 class="halls__title">Наши залы</h2>
         <ol class="halls__list">
@@ -87,7 +131,7 @@
       </div>
     </section>
   
-    <section class="section reservation-page">
+    <section class="section reservation-page" id="reservation">
       <div class="reservation container">
         <h2 class="reservation__title">Забронировать</h2>
         <form class="reservation__form" method="POST">
@@ -206,7 +250,7 @@
       </div>
     </section>
 
-    <section class="section about-page">
+    <section class="section about-page" id="about">
       <div class="about container">
         <h2 class="about__title">О нас</h2>
 
@@ -241,7 +285,7 @@
       </div>
     </section>
 
-    <section class="section review-page">
+    <section class="section review-page" id="reviews">
       <div class="review container-review">
         <h2 class="review__title">Отзывы посетителей</h2>
         <ul class="review__list">
@@ -285,7 +329,7 @@
       </div>
     </section>
 
-    <section class="section contacts-page">
+    <section class="section contacts-page" id="contacts">
       <div class="contacts container">
         <h2 class="contacts__title">Контакты</h2>
 
