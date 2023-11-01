@@ -125,25 +125,101 @@
 .reservation__box-third-part {
   display: flex;
   gap: 50px;
+  margin-bottom: 40px;
 }
 
 .reservation__box-third-part-items-left {
+  position: relative;
   width: 300px;
   flex-wrap: wrap;
   gap: 36px 32px;
   display: flex;
 }
 
+.reservation__label-date {
+  position:absolute;
+  top: -23px;
+  left: 0;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.reservation__label-time {
+  position:absolute;
+  top: -23px;
+  left: 166px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.reservation__label-number {
+  position:absolute;
+  top: 65px;
+  left: 0;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
 .reservation__box-third-part-items-middle {
+  position: relative;
   width: 280px;
   display: flex;
   flex-wrap: wrap;
+  gap: 36px 32px;
+}
+
+.reservation__label-name {
+  position:absolute;
+  top: -23px;
+  left: 0;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.reservation__label-surname {
+  position:absolute;
+  top: 65px;
+  left: 0;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
 }
 
 .reservation__box-third-part-items-right {
+  position: relative;
   width: 300px;
   display: flex;
   flex-wrap: wrap;
+  gap: 36px 32px;
+}
+
+.reservation__label-tel {
+  position:absolute;
+  top: -23px;
+  left: 0;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.reservation__label-email {
+  position:absolute;
+  top: 65px;
+  left: 0;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
 }
 
 /* Стилизация инпута date в третьей секции формы */
@@ -156,11 +232,11 @@
   padding: 0;
 }
 
-.reservation__input-third-part-date::-webkit-datetime-edit {
+/* .reservation__input-third-part-date::-webkit-datetime-edit {
   display: none;
-}
+} */
 
-.reservation__input-third-part-date::before {
+/* .reservation__input-third-part-date::before {
   content: "Дата";
   position: absolute;
   left: 20px;
@@ -168,15 +244,27 @@
   color: #211E1E;
   font-size: 18px;
   line-height: 28px;
-}
+} */
 
-.reservation__input-third-part-date::-webkit-calendar-picker-indicator {
+/* .reservation__input-third-part-date::-webkit-calendar-picker-indicator {
   position: absolute;
   right: 27px;
   top: 18.5px;
   background-image: url("../img/picker.svg");
   background-repeat: no-repeat;
+} */
+
+.reservation__input-third-part-date::-webkit-datetime-edit {
+  padding-left: 10px;
+  padding-top: 2px;
 }
+
+.reservation__input-third-part-date::-webkit-calendar-picker-indicator {
+  padding-right: 10px;
+  background-image: url("../img/picker.svg");
+  background-repeat: no-repeat;
+}
+
 
 /* Стилизация инпута time в третьей секции формы */
 
@@ -188,7 +276,7 @@
   padding: 0;
 }
 
-.reservation__input-third-part-time::-webkit-datetime-edit-hour-field {
+/* .reservation__input-third-part-time::-webkit-datetime-edit-hour-field {
   display: none;
 }
 
@@ -198,9 +286,9 @@
 
 .reservation__input-third-part-time::-webkit-datetime-edit-text {
   display: none;
-}
+} */
 
-.reservation__input-third-part-time::before {
+/* .reservation__input-third-part-time::before {
   content: "Время";
   position: absolute;
   left: 20px;
@@ -208,12 +296,24 @@
   color: #211E1E;
   font-size: 18px;
   line-height: 28px;
-}
+} */
 
-.reservation__input-third-part-time::-webkit-calendar-picker-indicator {
+/* .reservation__input-third-part-time::-webkit-calendar-picker-indicator {
   position: absolute;
   right: 27px;
   top: 18.5px;
+  background-image: url("../img/picker.svg");
+  background-repeat: no-repeat;
+} */
+
+.reservation__input-third-part-time::-webkit-datetime-edit-fields-wrapper {
+  padding-left: 10px;
+  padding-top: 2px;
+  font-size: 16px;
+}
+
+.reservation__input-third-part-time::-webkit-calendar-picker-indicator {
+  padding-right: 10px;
   background-image: url("../img/picker.svg");
   background-repeat: no-repeat;
 }
@@ -225,37 +325,30 @@
   height: 52px;
   border: none;
   padding: 0;
-}
-
-.text {
-  position: relative;
-  width: 200px;
-}
-
-.text::after {
-  content: "Сколько человек";
-  position: absolute;
-  color: #211E1E;
-  left: 20px;
-  top: -76px;
-
-  color: #211E1E;
-  font-size: 18px;
-  line-height: 28px;
+  padding-left: 10px;
 }
 
 /* Стилизация инпутов текстовых в третьей секции формы */ 
 
 .reservation__input-third-part {
-  position: relative;
   width: 280px;
   height: 52px;
+  border: none;
+  padding: 0 10px;
 }
 
-/* БЫЛО, ВОЗМОЖНО УБРАТЬ */
+.reservation__input-third-part-right {
+  width: 300px;
+  height: 52px;
+  border: none;
+  padding: 0 10px;
+}
+
+/* Стилизация секции с кнопкой */
 
 .reservation__sending-area {
-  padding-top: 4px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .reservation__button {
