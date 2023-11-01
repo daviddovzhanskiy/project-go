@@ -7,14 +7,6 @@
   text-transform: uppercase;
 }
 
-.reservation__subtitle {
-  margin-bottom: 40px;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
-}
-
 .reservation-page {
   background-color: #440F51;
 }
@@ -23,9 +15,29 @@
   padding: 80px 0;
 }
 
+/* Стилизация одинаковых элементов формы */
+
 .reservation__fieldset {
   border: none;
   padding: 0;
+}
+
+.reservation__legend {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+/* Стилизация первой секции формы */
+
+.reservation__subtitle {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
 }
 
 .reservation__box-first-part {
@@ -65,18 +77,12 @@
   display: none;
 }
 
+/* Стилизация второй секции формы */
+
 .reservation__container-small {
   max-width: 1040px;
   padding: 0 30px;
   margin: 0 auto;
-}
-
-.reservation__legend {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
 }
 
 .reservation__box-second-part {
@@ -86,19 +92,179 @@
   justify-content: space-between;
 }
 
+.reservation__legend-second-part {
+  margin-bottom: 23px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
 
 .reservation__box-second-part-items {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+
+.reservation__label-second-part {
+  width: 222px;
+  display: flex;
+  gap: 12px;
+
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.reservation__input-second-part {
+  width: 25px;
+  height: 25px;
+}
+
+/* Стилизация третьей секции формы */
+
+.reservation__box-third-part {
+  display: flex;
+  gap: 50px;
+}
+
+.reservation__box-third-part-items-left {
+  width: 300px;
+  flex-wrap: wrap;
+  gap: 36px 32px;
+  display: flex;
+}
+
+.reservation__box-third-part-items-middle {
+  width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reservation__box-third-part-items-right {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Стилизация инпута date в третьей секции формы */
+
+.reservation__input-third-part-date {
+  position: relative;
+  width: 134px;
+  height: 52px;
+  border: none;
+  padding: 0;
+}
+
+.reservation__input-third-part-date::-webkit-datetime-edit {
+  display: none;
+}
+
+.reservation__input-third-part-date::before {
+  content: "Дата";
+  position: absolute;
+  left: 20px;
+
+  color: #211E1E;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.reservation__input-third-part-date::-webkit-calendar-picker-indicator {
+  position: absolute;
+  right: 27px;
+  top: 18.5px;
+  background-image: url("../img/picker.svg");
+  background-repeat: no-repeat;
+}
+
+/* Стилизация инпута time в третьей секции формы */
+
+.reservation__input-third-part-time {
+  position: relative;
+  width: 134px;
+  height: 52px;
+  border: none;
+  padding: 0;
+}
+
+.reservation__input-third-part-time::-webkit-datetime-edit-hour-field {
+  display: none;
+}
+
+.reservation__input-third-part-time::-webkit-datetime-edit-minute-field {
+  display: none;
+}
+
+.reservation__input-third-part-time::-webkit-datetime-edit-text {
+  display: none;
+}
+
+.reservation__input-third-part-time::before {
+  content: "Время";
+  position: absolute;
+  left: 20px;
+
+  color: #211E1E;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.reservation__input-third-part-time::-webkit-calendar-picker-indicator {
+  position: absolute;
+  right: 27px;
+  top: 18.5px;
+  background-image: url("../img/picker.svg");
+  background-repeat: no-repeat;
+}
+
+/* Стилизация инпута number в третьей секции формы */
+
+.reservation__input-third-part-number {
+  width: 300px;
+  height: 52px;
+  border: none;
+  padding: 0;
+}
+
+.text {
+  position: relative;
+  width: 200px;
+}
+
+.text::after {
+  content: "Сколько человек";
+  position: absolute;
+  color: #211E1E;
+  left: 20px;
+  top: -76px;
+
+  color: #211E1E;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* Стилизация инпутов текстовых в третьей секции формы */ 
+
+.reservation__input-third-part {
+  position: relative;
+  width: 280px;
+  height: 52px;
 }
 
 /* БЫЛО, ВОЗМОЖНО УБРАТЬ */
 
 .reservation__sending-area {
-  padding-top: 5px;
+  padding-top: 4px;
 }
 
 .reservation__button {
+  padding: 16px 50px;
+  color: #6C0287;
   background-color: #fff;
-  padding: 5px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
 }
