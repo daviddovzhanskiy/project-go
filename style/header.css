@@ -43,3 +43,12 @@
   text-transform: uppercase;
 }
 
+.header__button:hover, .header__button:focus {
+  background-color: #6C0287;
+  border: 3px solid #6C0287;
+}
+
+.header__button:active {
+  background-color: #640AA3;  
+  border: 1px solid #000;
+}

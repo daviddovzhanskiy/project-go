@@ -65,17 +65,33 @@
   text-transform: uppercase;
 }
 
-.reservation__label-first-part:has(.reservation__input-first-part:checked) {
+/* .reservation__label-first-part:has(.reservation__input-first-part:checked) {
 	background-color: #cf94da;
-}
+} */
 
 .reservation__label-first-part:hover {
-	color: #242323;
+  background-color: #EADEED;
+	border: 3px solid #640AA3;
 }
 
-.reservation__input-first-part {
+/* .reservation__label-first-part:focus {
+  background-color: #FFF;
+  border: 3px solid #640AA3;
+} */
+
+.reservation__label-first-part:active {
+  background-color: #6C0287;
+  border: 3px solid #FFF;
+}
+
+.reservation__input-first-part{
   display: none;
 }
+
+/* .reservation__input-first-part:focus + .reservation__label-first-part {
+  background-color: #FFF;
+  border: 3px solid #640AA3;
+} */
 
 /* Стилизация второй секции формы */
 
@@ -354,10 +370,25 @@
 .reservation__button {
   padding: 16px 50px;
   color: #6C0287;
-  background-color: #fff;
+  background-color: #FFF;
   border-radius: 10px;
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
+}
+
+.reservation__button:hover {
+  background-color: #EADEED;
+  border: 3px solid #6C0287;
+}
+
+.reservation__button:focus {
+  background-color: #FFF;
+  border: 3px solid #6C0287;
+}
+
+.reservation__button:active {
+  background-color: #EADEED;
+  border: none;
 }
