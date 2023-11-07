@@ -117,3 +117,15 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.banner__button-down:hover {
+  background-image: url("../img/down-hover.svg");
+}
+
+.banner__button-down:focus {
+  background-image: url("../img/down-focus.svg");
+}
+
+.banner__button-down:active {
+  background-image: url("../img/down-active.svg");
+}

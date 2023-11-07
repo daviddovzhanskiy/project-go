@@ -136,6 +136,10 @@
   height: 25px;
 }
 
+.reservation__input-second-part:focus {
+  border: 1px solid #CD06FF;
+}
+
 /* Стилизация третьей секции формы */
 
 .reservation__box-third-part {
@@ -248,6 +252,10 @@
   padding: 0;
 }
 
+.reservation__input-third-part-date:focus {
+  border: 2px solid #CD06FF;
+}
+
 /* .reservation__input-third-part-date::-webkit-datetime-edit {
   display: none;
 } */
@@ -290,6 +298,18 @@
   height: 52px;
   border: none;
   padding: 0;
+}
+
+.reservation__input-third-part-time {
+  position: relative;
+  width: 134px;
+  height: 52px;
+  border: none;
+  padding: 0;
+}
+
+.reservation__input-third-part-time:focus {
+  border: 2px solid #CD06FF;
 }
 
 /* .reservation__input-third-part-time::-webkit-datetime-edit-hour-field {
@@ -344,6 +364,10 @@
   padding-left: 10px;
 }
 
+.reservation__input-third-part-number:focus {
+  border: 2px solid #CD06FF;
+}
+
 /* Стилизация инпутов текстовых в третьей секции формы */ 
 
 .reservation__input-third-part {
@@ -353,11 +377,19 @@
   padding: 0 10px;
 }
 
+.reservation__input-third-part:focus {
+  border: 2px solid #CD06FF;
+}
+
 .reservation__input-third-part-right {
   width: 300px;
   height: 52px;
   border: none;
   padding: 0 10px;
+}
+
+.reservation__input-third-part-right:focus {
+  border: 2px solid #CD06FF;
 }
 
 /* Стилизация секции с кнопкой */
