@@ -11,22 +11,22 @@
   display: flex;
 }
 
-.about__left-content {
+.about__box-content_position_left {
   margin-right: 80px;
   max-width: 600px;
   max-height: 596px;
 }
 
-.about__left-image {
+.about__image {
   width: 100%;
 }
 
-.about__right-content {
+.about__box-content_position_right {
   max-width: 500px;
   max-height: 595px;
 }
 
-.about__right-text {
+.about__text {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;

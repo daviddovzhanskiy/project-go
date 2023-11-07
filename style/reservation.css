@@ -40,14 +40,14 @@
   line-height: 28px;
 }
 
-.reservation__box-first-part {
+.reservation__box_block_first {
   display: flex;
   justify-content: space-between;
   gap: 60px;
   margin-bottom: 60px;
 }
 
-.reservation__label-first-part {
+.reservation__label_block_first {
   padding: 7px 15px 8px;
   border-radius: 8px;
   background-color: #FFF;
@@ -65,30 +65,30 @@
   text-transform: uppercase;
 }
 
-/* .reservation__label-first-part:has(.reservation__input-first-part:checked) {
+/* .reservation__label_block_first:has(.reservation__input_block_first:checked) {
 	background-color: #cf94da;
 } */
 
-.reservation__label-first-part:hover {
+.reservation__label_block_first:hover {
   background-color: #EADEED;
 	border: 3px solid #640AA3;
 }
 
-/* .reservation__label-first-part:focus {
+/* .reservation__label_block_first:focus {
   background-color: #FFF;
   border: 3px solid #640AA3;
 } */
 
-.reservation__label-first-part:active {
+.reservation__label_block_first:active {
   background-color: #6C0287;
   border: 3px solid #FFF;
 }
 
-.reservation__input-first-part{
+.reservation__input_block_first{
   display: none;
 }
 
-/* .reservation__input-first-part:focus + .reservation__label-first-part {
+/* .reservation__input_block_first:focus + .reservation__label_block_first {
   background-color: #FFF;
   border: 3px solid #640AA3;
 } */
@@ -101,14 +101,14 @@
   margin: 0 auto;
 }
 
-.reservation__box-second-part {
+.reservation__box_block_second {
   display: flex;
   margin-bottom: 60px;
 
   justify-content: space-between;
 }
 
-.reservation__legend-second-part {
+.reservation__legend_block_second {
   margin-bottom: 23px;
 
   font-size: 24px;
@@ -116,13 +116,13 @@
   line-height: 28px;
 }
 
-.reservation__box-second-part-items {
+.reservation__box-content_block_second {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.reservation__label-second-part {
+.reservation__label_block_second {
   width: 222px;
   display: flex;
   gap: 12px;
@@ -131,24 +131,24 @@
   font-weight: 400;
 }
 
-.reservation__input-second-part {
+.reservation__input_block_second {
   width: 25px;
   height: 25px;
 }
 
-.reservation__input-second-part:focus {
+.reservation__input_block_second:focus {
   border: 1px solid #CD06FF;
 }
 
 /* Стилизация третьей секции формы */
 
-.reservation__box-third-part {
+.reservation__box_block_third {
   display: flex;
   gap: 50px;
   margin-bottom: 40px;
 }
 
-.reservation__box-third-part-items-left {
+.reservation__box-third_position_left {
   position: relative;
   width: 300px;
   flex-wrap: wrap;
@@ -186,7 +186,7 @@
   line-height: 16px;
 }
 
-.reservation__box-third-part-items-middle {
+.reservation__box-third_position_middle {
   position: relative;
   width: 280px;
   display: flex;
@@ -214,7 +214,7 @@
   line-height: 16px;
 }
 
-.reservation__box-third-part-items-right {
+.reservation__box-third_position_right {
   position: relative;
   width: 300px;
   display: flex;
@@ -244,7 +244,7 @@
 
 /* Стилизация инпута date в третьей секции формы */
 
-.reservation__input-third-part-date {
+.reservation__input-date {
   position: relative;
   width: 134px;
   height: 52px;
@@ -252,15 +252,15 @@
   padding: 0;
 }
 
-.reservation__input-third-part-date:focus {
+.reservation__input-date:focus {
   border: 2px solid #CD06FF;
 }
 
-/* .reservation__input-third-part-date::-webkit-datetime-edit {
+/* .reservation__input-date::-webkit-datetime-edit {
   display: none;
 } */
 
-/* .reservation__input-third-part-date::before {
+/* .reservation__input-date::before {
   content: "Дата";
   position: absolute;
   left: 20px;
@@ -270,7 +270,7 @@
   line-height: 28px;
 } */
 
-/* .reservation__input-third-part-date::-webkit-calendar-picker-indicator {
+/* .reservation__input-date::-webkit-calendar-picker-indicator {
   position: absolute;
   right: 27px;
   top: 18.5px;
@@ -278,12 +278,12 @@
   background-repeat: no-repeat;
 } */
 
-.reservation__input-third-part-date::-webkit-datetime-edit {
+.reservation__input-date::-webkit-datetime-edit {
   padding-left: 10px;
   padding-top: 2px;
 }
 
-.reservation__input-third-part-date::-webkit-calendar-picker-indicator {
+.reservation__input-date::-webkit-calendar-picker-indicator {
   padding-right: 10px;
   background-image: url("../img/picker.svg");
   background-repeat: no-repeat;
@@ -292,7 +292,7 @@
 
 /* Стилизация инпута time в третьей секции формы */
 
-.reservation__input-third-part-time {
+.reservation__input-time {
   position: relative;
   width: 134px;
   height: 52px;
@@ -300,7 +300,7 @@
   padding: 0;
 }
 
-.reservation__input-third-part-time {
+.reservation__input-time {
   position: relative;
   width: 134px;
   height: 52px;
@@ -308,23 +308,23 @@
   padding: 0;
 }
 
-.reservation__input-third-part-time:focus {
+.reservation__input-time:focus {
   border: 2px solid #CD06FF;
 }
 
-/* .reservation__input-third-part-time::-webkit-datetime-edit-hour-field {
+/* .reservation__input-time::-webkit-datetime-edit-hour-field {
   display: none;
 }
 
-.reservation__input-third-part-time::-webkit-datetime-edit-minute-field {
+.reservation__input-time::-webkit-datetime-edit-minute-field {
   display: none;
 }
 
-.reservation__input-third-part-time::-webkit-datetime-edit-text {
+.reservation__input-time::-webkit-datetime-edit-text {
   display: none;
 } */
 
-/* .reservation__input-third-part-time::before {
+/* .reservation__input-time::before {
   content: "Время";
   position: absolute;
   left: 20px;
@@ -334,7 +334,7 @@
   line-height: 28px;
 } */
 
-/* .reservation__input-third-part-time::-webkit-calendar-picker-indicator {
+/* .reservation__input-time::-webkit-calendar-picker-indicator {
   position: absolute;
   right: 27px;
   top: 18.5px;
@@ -342,13 +342,13 @@
   background-repeat: no-repeat;
 } */
 
-.reservation__input-third-part-time::-webkit-datetime-edit-fields-wrapper {
+.reservation__input-time::-webkit-datetime-edit-fields-wrapper {
   padding-left: 10px;
   padding-top: 2px;
   font-size: 16px;
 }
 
-.reservation__input-third-part-time::-webkit-calendar-picker-indicator {
+.reservation__input-time::-webkit-calendar-picker-indicator {
   padding-right: 10px;
   background-image: url("../img/picker.svg");
   background-repeat: no-repeat;
@@ -356,7 +356,7 @@
 
 /* Стилизация инпута number в третьей секции формы */
 
-.reservation__input-third-part-number {
+.reservation__input-number {
   width: 300px;
   height: 52px;
   border: none;
@@ -364,31 +364,52 @@
   padding-left: 10px;
 }
 
-.reservation__input-third-part-number:focus {
+.reservation__input-number:focus {
   border: 2px solid #CD06FF;
 }
 
 /* Стилизация инпутов текстовых в третьей секции формы */ 
-
-.reservation__input-third-part {
+.reservation__input-name {
   width: 280px;
   height: 52px;
   border: none;
   padding: 0 10px;
 }
 
-.reservation__input-third-part:focus {
+.reservation__input-name:focus {
   border: 2px solid #CD06FF;
 }
 
-.reservation__input-third-part-right {
+.reservation__input-surname {
+  width: 280px;
+  height: 52px;
+  border: none;
+  padding: 0 10px;
+}
+
+.reservation__input-surname:focus {
+  border: 2px solid #CD06FF;
+}
+
+.reservation__input-tel {
   width: 300px;
   height: 52px;
   border: none;
   padding: 0 10px;
 }
 
-.reservation__input-third-part-right:focus {
+.reservation__input-tel:focus {
+  border: 2px solid #CD06FF;
+}
+
+.reservation__input-email {
+  width: 300px;
+  height: 52px;
+  border: none;
+  padding: 0 10px;
+}
+
+.reservation__input-email:focus {
   border: 2px solid #CD06FF;
 }
 
