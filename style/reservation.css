@@ -63,25 +63,27 @@
   font-weight: 700;
   line-height: 40px;
   text-transform: uppercase;
+  z-index: 1;
 }
 
-/* .reservation__label_block_first:has(.reservation__input_block_first:checked) {
-	background-color: #cf94da;
-} */
+.reservation__label_block_first:has(.reservation__input_block_first:checked) {
+  background-color: #6C0287;
+  outline: 3px solid #FFF;
+}
 
 .reservation__label_block_first:hover {
   background-color: #EADEED;
-	border: 3px solid #640AA3;
+	outline: 3px solid #640AA3;
 }
 
 /* .reservation__label_block_first:focus {
   background-color: #FFF;
-  border: 3px solid #640AA3;
+  outline: 3px solid #640AA3;
 } */
 
 .reservation__label_block_first:active {
   background-color: #6C0287;
-  border: 3px solid #FFF;
+  outline: 3px solid #FFF;
 }
 
 .reservation__input_block_first{
@@ -132,12 +134,22 @@
 }
 
 .reservation__input_block_second {
+  position: relative;
   width: 25px;
   height: 25px;
+  outline: none;
 }
 
-.reservation__input_block_second:focus {
+.reservation__mark {
+  display: none;
+}
+
+.reservation__input_block_second:focus + .reservation__mark {
+  display: block;
+  width: 25px;
+  height: 25px;
   border: 1px solid #CD06FF;
+  position: absolute;
 }
 
 /* Стилизация третьей секции формы */
@@ -250,6 +262,7 @@
   height: 52px;
   border: none;
   padding: 0;
+  outline: none;
 }
 
 .reservation__input-date:focus {
@@ -298,6 +311,7 @@
   height: 52px;
   border: none;
   padding: 0;
+  outline: none;
 }
 
 .reservation__input-time {
@@ -362,6 +376,7 @@
   border: none;
   padding: 0;
   padding-left: 10px;
+  outline: none;
 }
 
 .reservation__input-number:focus {
@@ -374,6 +389,7 @@
   height: 52px;
   border: none;
   padding: 0 10px;
+  outline: none;
 }
 
 .reservation__input-name:focus {
@@ -385,6 +401,7 @@
   height: 52px;
   border: none;
   padding: 0 10px;
+  outline: none;
 }
 
 .reservation__input-surname:focus {
@@ -396,6 +413,7 @@
   height: 52px;
   border: none;
   padding: 0 10px;
+  outline: none;
 }
 
 .reservation__input-tel:focus {
@@ -407,6 +425,7 @@
   height: 52px;
   border: none;
   padding: 0 10px;
+  outline: none;
 }
 
 .reservation__input-email:focus {
@@ -421,6 +440,8 @@
 }
 
 .reservation__button {
+  width: 300px;
+  height: 60px;
   padding: 16px 50px;
   color: #6C0287;
   background-color: #FFF;
@@ -429,19 +450,20 @@
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
+
 }
 
 .reservation__button:hover {
   background-color: #EADEED;
-  border: 3px solid #6C0287;
+  outline: 3px solid #6C0287;
 }
 
 .reservation__button:focus {
   background-color: #FFF;
-  border: 3px solid #6C0287;
+  outline: 3px solid #6C0287;
 }
 
 .reservation__button:active {
   background-color: #EADEED;
-  border: none;
+  outline: none;
 }
