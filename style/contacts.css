@@ -2,7 +2,7 @@
   background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
-.contacts__box-content {
+.contacts__box-wrapper {
   display: flex;
   justify-content: space-between;
   gap: 60px;

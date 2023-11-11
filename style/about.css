@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-.about__box-content {
+.about__box-wrapper {
   display: flex;
 }
 
