@@ -64,6 +64,7 @@
   line-height: 40px;
   text-transform: uppercase;
   z-index: 1;
+  cursor: pointer;
 }
 .reservation__label_block_first:has(.reservation__input_block_first:checked) {
   background-color: #6C0287;
@@ -91,7 +92,7 @@
 }
 
 .reservation__input_block_first{
-  appearance: none
+  appearance: none;
 }
 
 /* .reservation__input_block_first:focus + .reservation__label_block_first {
@@ -142,6 +143,7 @@
   width: 25px;
   height: 25px;
   outline: none;
+  cursor: pointer
 }
 
 /*
@@ -314,6 +316,7 @@
   padding-right: 10px;
   background-image: url("../img/picker.svg");
   background-repeat: no-repeat;
+  cursor: pointer
 }
 
 
@@ -380,6 +383,7 @@
   padding-right: 10px;
   background-image: url("../img/picker.svg");
   background-repeat: no-repeat;
+  cursor: pointer
 }
 
 /* Стилизация инпута number в третьей секции формы */
@@ -464,7 +468,7 @@
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
-
+  cursor: pointer
 }
 
 .reservation__button:hover {
