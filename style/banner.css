@@ -83,6 +83,7 @@
   line-height: 30px;
   text-transform: uppercase;
   outline: none;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .banner__button::before {
@@ -113,6 +114,7 @@
   bottom: 90px;
   z-index: 2;
   outline: none;
+  transition: background-image 0.3s ease-in-out;
 
   background-image: url("../img/down.svg");
   background-repeat: no-repeat;
