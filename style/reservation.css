@@ -65,6 +65,7 @@
   text-transform: uppercase;
   z-index: 1;
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out, outline 0.2s ease-in-out;
 }
 .reservation__label_block_first:has(.reservation__input_block_first:checked) {
   background-color: #6C0287;
@@ -81,10 +82,10 @@
 	outline: 3px solid #640AA3;
 }
 
-.reservation__label_block_first:focus {
+/* .reservation__label_block_first:focus {
   background-color: #FFF;
   outline: 3px solid #640AA3;
-}
+} */
 
 .reservation__label_block_first:active {
   background-color: #6C0287;
@@ -143,20 +144,18 @@
   width: 25px;
   height: 25px;
   outline: none;
-  cursor: pointer
+  cursor: pointer;
+  transition: outline 0.2s ease-in;
 }
 
-/*
+
 .reservation__input_block_second:focus {
-  оказывается можно сделать и просто через outline без дополнительных элементов span
-  так как border свойство почему-то не применяется к этим инпутам, можете сами попробовать, выкрутился через span
-  и только под конец, открыл для себя outline и переделал  много состояний (а то с border размеры скачат у элементов)
   outline: 1px solid #CD06FF;
 }   
-*/
 
 
-.reservation__mark {
+
+/* .reservation__mark {
   display: none;
 }
 
@@ -166,7 +165,7 @@
   height: 25px;
   border: 1px solid #CD06FF;
   position: absolute;
-}
+} */
 
 /* Стилизация третьей секции формы */
 
@@ -279,10 +278,11 @@
   border: none;
   padding: 0;
   outline: none;
+  transition: outline 0.2s ease-in;
 }
 
 .reservation__input-date:focus {
-  border: 2px solid #CD06FF;
+  outline: 2px solid #CD06FF;
 }
 
 /* .reservation__input-date::-webkit-datetime-edit {
@@ -329,18 +329,11 @@
   border: none;
   padding: 0;
   outline: none;
-}
-
-.reservation__input-time {
-  position: relative;
-  width: 134px;
-  height: 52px;
-  border: none;
-  padding: 0;
+  transition: outline 0.2s ease-in;
 }
 
 .reservation__input-time:focus {
-  border: 2px solid #CD06FF;
+  outline: 2px solid #CD06FF;
 }
 
 /* .reservation__input-time::-webkit-datetime-edit-hour-field {
@@ -395,10 +388,11 @@
   padding: 0;
   padding-left: 10px;
   outline: none;
+  transition: outline 0.2s ease-in;
 }
 
 .reservation__input-number:focus {
-  border: 2px solid #CD06FF;
+  outline: 2px solid #CD06FF;
 }
 
 /* Стилизация инпутов текстовых в третьей секции формы */ 
@@ -408,10 +402,11 @@
   border: none;
   padding: 0 10px;
   outline: none;
+  transition: outline 0.2s ease-in;
 }
 
 .reservation__input-name:focus {
-  border: 2px solid #CD06FF;
+  outline: 2px solid #CD06FF;
 }
 
 .reservation__input-surname {
@@ -420,10 +415,11 @@
   border: none;
   padding: 0 10px;
   outline: none;
+  transition: outline 0.2s ease-in;
 }
 
 .reservation__input-surname:focus {
-  border: 2px solid #CD06FF;
+  outline: 2px solid #CD06FF;
 }
 
 .reservation__input-tel {
@@ -432,10 +428,11 @@
   border: none;
   padding: 0 10px;
   outline: none;
+  transition: outline 0.2s ease-in;
 }
 
 .reservation__input-tel:focus {
-  border: 2px solid #CD06FF;
+  outline: 2px solid #CD06FF;
 }
 
 .reservation__input-email {
@@ -444,10 +441,11 @@
   border: none;
   padding: 0 10px;
   outline: none;
+  transition: outline 0.2s ease-in;
 }
 
 .reservation__input-email:focus {
-  border: 2px solid #CD06FF;
+  outline: 2px solid #CD06FF;
 }
 
 /* Стилизация секции с кнопкой */
@@ -468,7 +466,8 @@
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
-  cursor: pointer
+  cursor: pointer;
+  transition: outline 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .reservation__button:hover {

@@ -28,6 +28,11 @@
 
   background-repeat: no-repeat;
   background-size: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.we-have__item:hover {
+  transform: scale(1.1);
 }
 
 .we-have__item_background_vr {
