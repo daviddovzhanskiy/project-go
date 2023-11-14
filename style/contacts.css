@@ -52,6 +52,18 @@
   white-space: pre-line;
 }
 
+.contacts__address-place:hover {
+  color: rgb(64, 166, 255);
+}
+
+.contacts__address-phone:hover {
+  color: rgb(64, 166, 255);
+}
+
+.contacts__address-email:hover {
+  color: rgb(64, 166, 255);
+}
+
 .contacts__box-address_block_phone {
   display: flex;
   justify-content: left;
@@ -73,16 +85,20 @@
 }
 
 .contacts__navigation-icon {
-  /* animation: animation 3s infinite alternate; */
+  /* animation: animation 4s infinite alternate; */
   fill: #FFF;
+}
+
+.contacts__navigation-icon:hover {
+  fill: rgb(64, 166, 255);
 }
 
 /* @keyframes animation {
   from {
-    fill: rgb(0, 68, 255);
+    fill: rgb(134, 141, 203);
   }
   to {
-    fill: rgb(49, 0, 128);
+    fill: rgb(156, 96, 252);
   }
 } */
 
@@ -101,4 +117,8 @@
 .contacts__footer-text {
   font-size: 14px;
   line-height: 16px;
+}
+
+.contacts__footer-text:hover {
+  color: rgb(64, 166, 255);
 }

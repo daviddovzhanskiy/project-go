@@ -31,6 +31,10 @@
   text-transform: uppercase;
 }
 
+.header__link:hover {
+  color: #CD06FF;
+}
+
 .header__button {
   border: 3px solid #CD06FF;
   border-radius: 10px;

@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: scale 0.4s;
 }
 
 .faq__element:not(:last-child)  {
@@ -23,6 +24,10 @@
 
 .faq__element:nth-child(even) {
   background-color: #440F51;
+}
+
+.faq__element:hover {
+  scale: 1.05;
 }
 
 .faq__icon {
