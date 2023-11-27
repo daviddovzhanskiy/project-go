@@ -39,7 +39,7 @@
 }
 
 .about__qoute-symbol {
-  color: #6C0287;
+  color: var(--second-color);
   font-size: 44px;
   font-weight: 900;
   line-height: 50px; 
@@ -60,7 +60,7 @@
 
 .about__quote::after {
   content: " ”";
-  color: #6C0287;
+  color: var(--second-color);
   font-size: 44px;
   font-weight: 900;
   line-height: 50px; 

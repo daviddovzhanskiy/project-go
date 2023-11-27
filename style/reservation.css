@@ -8,7 +8,7 @@
 }
 
 .reservation-page {
-  background-color: #440F51;
+  background-color: var(--background-first);
 }
 
 .section-custom {
@@ -50,14 +50,14 @@
 .reservation__label_block_first {
   padding: 7px 15px 8px;
   border-radius: 8px;
-  background-color: #FFF;
+  background-color: var(--white-color);
   user-select: none;
   
   width: 250px;
   height: 55px;
   flex-shrink: 0;
 
-  color: #000;
+  color: var(--black-color);
   text-align: center;
   font-size: 30px;
   font-weight: 700;
@@ -68,18 +68,18 @@
   transition: background-color 0.2s ease-in-out, outline 0.2s ease-in-out;
 }
 .reservation__label_block_first:has(.reservation__input_block_first:checked) {
-  background-color: #6C0287;
+  background-color: var(--second-color);
   outline: none;
 }
 
 .reservation__label_block_first:has(.reservation__input_block_first:focus) {
-  background-color: #6C0287;
-  outline: 3px solid #FFF;
+  background-color: var(--second-color);
+  outline: 3px solid var(--white-color);
 }
 
 .reservation__label_block_first:hover {
-  background-color: #EADEED;
-	outline: 3px solid #640AA3;
+  background-color: var(--hover-first);
+	outline: 3px solid var(--hover-second);
 }
 
 /* .reservation__label_block_first:focus {
@@ -88,8 +88,8 @@
 } */
 
 .reservation__label_block_first:active {
-  background-color: #6C0287;
-  outline: 3px solid #FFF;
+  background-color: var(--second-color);
+  outline: 3px solid var(--white-color);
 }
 
 .reservation__input_block_first{
@@ -150,7 +150,7 @@
 
 
 .reservation__input_block_second:focus {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--main-color);
 }   
 
 
@@ -282,7 +282,7 @@
 }
 
 .reservation__input-date:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--main-color);
 }
 
 /* .reservation__input-date::-webkit-datetime-edit {
@@ -333,7 +333,7 @@
 }
 
 .reservation__input-time:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--main-color);
 }
 
 /* .reservation__input-time::-webkit-datetime-edit-hour-field {
@@ -392,7 +392,7 @@
 }
 
 .reservation__input-number:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--main-color);
 }
 
 /* Стилизация инпутов текстовых в третьей секции формы */ 
@@ -406,7 +406,7 @@
 }
 
 .reservation__input-name:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--main-color);
 }
 
 .reservation__input-surname {
@@ -419,7 +419,7 @@
 }
 
 .reservation__input-surname:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--main-color);
 }
 
 .reservation__input-tel {
@@ -432,7 +432,7 @@
 }
 
 .reservation__input-tel:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--main-color);
 }
 
 .reservation__input-email {
@@ -445,7 +445,7 @@
 }
 
 .reservation__input-email:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--main-color);
 }
 
 /* Стилизация секции с кнопкой */
@@ -459,8 +459,8 @@
   width: 300px;
   height: 60px;
   padding: 16px 50px;
-  color: #6C0287;
-  background-color: #FFF;
+  color: var(--second-color);
+  background-color: var(--white-color);
   border-radius: 10px;
   font-size: 22px;
   font-weight: 700;
@@ -471,16 +471,16 @@
 }
 
 .reservation__button:hover {
-  background-color: #EADEED;
-  outline: 3px solid #6C0287;
+  background-color: var(--hover-first);
+  outline: 3px solid var(--second-color);
 }
 
 .reservation__button:focus {
-  background-color: #FFF;
-  outline: 3px solid #6C0287;
+  background-color: var(--white-color);
+  outline: 3px solid var(--second-color);
 }
 
 .reservation__button:active {
-  background-color: #EADEED;
+  background-color: var(--hover-first);
   outline: none;
 }

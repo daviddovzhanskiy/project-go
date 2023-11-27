@@ -32,17 +32,17 @@
 }
 
 .header__link:hover {
-  color: #CD06FF;
+  color: var(--main-color);
 }
 
 .header__button {
-  border: 3px solid #CD06FF;
+  border: 3px solid var(--main-color);
   border-radius: 10px;
   padding: 9px 29px 10px;
   width: 286px;
   height: 61px;
 
-  color: #FFFFFF;
+  color: var(--white-color);
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
@@ -52,11 +52,11 @@
 }
 
 .header__button:hover, .header__button:focus {
-  background-color: #6C0287;
-  border: 3px solid #6C0287;
+  background-color: var(--second-color);
+  border: 3px solid var(--second-color);
 }
 
 .header__button:active {
-  background-color: #640AA3;  
-  border: 1px solid #000;
+  background-color: var(--hover-second);
+  border: 1px solid var(--black-color);
 }

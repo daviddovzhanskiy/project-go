@@ -30,7 +30,7 @@
 
 .review__caption {
   text-align: center;
-  color: #FFF;
+  color: var(--white-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -38,7 +38,7 @@
 
 .review__text {
   padding-top: 50px;
-  color: #FFF;
+  color: var(--white-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;

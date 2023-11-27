@@ -1,0 +1,13 @@
+:root {
+  --main-color: #CD06FF;
+  --second-color: #6C0287;
+  --hover-first: #EADEED;
+  --hover-second: #640AA3;
+  --hover-third: rgb(64, 166, 255);
+  --background-first: #440F51;
+  --background-second: #840AA3;
+  --gradient-first: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+  --text-first: #1C1A1A;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+}

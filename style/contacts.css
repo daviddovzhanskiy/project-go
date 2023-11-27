@@ -1,5 +1,5 @@
 .contacts-page {
-  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+  background: var(--gradient-first);
 }
 
 .contacts__box-wrapper {
@@ -29,7 +29,7 @@
 
 .contacts__address-area {
   margin-bottom: 40px;
-  color: #FFF;
+  color: var(--white-color);
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -44,7 +44,7 @@
 }
 
 .contacts__address-icon {
-  fill: #CD06FF;
+  fill: var(--main-color);
   margin-right: 30px;
 }
 
@@ -53,15 +53,15 @@
 }
 
 .contacts__address-place:hover {
-  color: rgb(64, 166, 255);
+  color: var(--hover-third);
 }
 
 .contacts__address-phone:hover {
-  color: rgb(64, 166, 255);
+  color: var(--hover-third);
 }
 
 .contacts__address-email:hover {
-  color: rgb(64, 166, 255);
+  color: var(--hover-third);
 }
 
 .contacts__box-address_block_phone {
@@ -86,11 +86,11 @@
 
 .contacts__navigation-icon {
   /* animation: animation 4s infinite alternate; */
-  fill: #FFF;
+  fill: var(--white-color);
 }
 
 .contacts__navigation-icon:hover {
-  fill: rgb(64, 166, 255);
+  fill: var(--hover-third);
 }
 
 /* @keyframes animation {
@@ -120,5 +120,5 @@
 }
 
 .contacts__footer-text:hover {
-  color: rgb(64, 166, 255);
+  color: var(--hover-third);
 }

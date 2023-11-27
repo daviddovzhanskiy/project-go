@@ -8,7 +8,7 @@
 }
 
 .faq__element {
-  background-color: #fff;
+  background-color: var(--white-color);
   padding: 30px 70px;
 
   list-style-type: none;
@@ -23,7 +23,7 @@
 }
 
 .faq__element:nth-child(even) {
-  background-color: #440F51;
+  background-color: var(--background-first);
 }
 
 .faq__element:hover {
@@ -64,13 +64,13 @@
 }
 
 .faq__text {
-  color: #1C1A1A;
+  color: var(--text-first);
   font-weight: 700;
   font-size: 24px;
 }
 
 .faq__text_color_white {
-  color: #FFF;
+  color: var(--white-color);
 }
 
 /* .faq__icon {
