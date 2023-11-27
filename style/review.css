@@ -28,6 +28,23 @@
   margin-bottom: 11px;
 }
 
+.review__figure {
+  position: relative;
+}
+
+.review__figure::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 280px;
+  
+  border-radius: 140px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0.00) 0%, rgba(108, 2, 135, 0.50) 100%);
+  z-index: 2;
+}
+
 .review__caption {
   text-align: center;
   color: var(--white-color);
