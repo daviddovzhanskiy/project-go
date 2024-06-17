@@ -1,0 +1,16 @@
+.section {
+  padding: 60px 0;
+}
+
+.place__main-image {
+  height: 750px;
+  width: 1440px;
+  background-image: url("../img/80s-banner.jpg");
+  background-size: cover;
+}
+
+.container-big {
+  max-width: 1500px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
