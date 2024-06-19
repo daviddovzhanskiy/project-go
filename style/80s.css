@@ -1,4 +1,6 @@
-.section {
+/* Блок с главной картинкой */
+
+.place-page {
   padding: 60px 0;
 }
 
@@ -45,4 +47,100 @@
   font-size: 90px;
   line-height: 89%;
   text-transform: uppercase;
+}
+
+/* Блок с главной комнатой */
+
+.room-page {
+  padding: 10px 0 60px 0;
+}
+
+.room__ad-description {
+  width: 800px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  margin: 0 auto 70px;
+}
+
+.room__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 133%;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 35px;
+}
+
+.room__box-wrapper {
+  display: flex;
+}
+
+.room__image {
+  margin-right: 80px;
+}
+
+.room__text-box {
+  width: 413px;
+  font-size: 18px;
+  line-height: 156%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.room__description-1st {
+  margin-bottom: 15px;
+}
+
+/* Блок с другими комнатами */
+
+.others-page {
+  padding: 10px 0 30px 0;
+}
+
+.others__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+.others__box-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.others__room {
+  width: 380px;
+  height: 229px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.others__room_img_1 {
+  background-image: url("../img/wild-west.jpg");
+}
+
+.others__room_img_2 {
+  background-image: url("../img/star-wars.jpg");
+}
+
+.others__room_img_3 {
+  background-image: url("../img/neon-1440-mini.jpg");
+}
+
+.others__room-text {
+  width: 150px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-align: center;
 }
