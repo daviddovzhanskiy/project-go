@@ -35,11 +35,14 @@
 .place__main-image {
   height: 750px;
   width: 1440px;
-  background-image: url("../img/80s-banner.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.place__main-image_style_1 {
+  background-image: url("../img/80s-banner.jpg");
 }
 
 .place__main-text {
@@ -124,15 +127,15 @@
   align-items: center;
 }
 
-.others__room_img_1 {
+.others__room_img_80s-1 {
   background-image: url("../img/wild-west.jpg");
 }
 
-.others__room_img_2 {
+.others__room_img_80s-2 {
   background-image: url("../img/star-wars.jpg");
 }
 
-.others__room_img_3 {
+.others__room_img_80s-3 {
   background-image: url("../img/neon-1440-mini.jpg");
 }
 
