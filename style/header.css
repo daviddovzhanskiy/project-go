@@ -60,3 +60,32 @@
   background-color: var(--hover-second);
   border: 1px solid var(--black-color);
 }
+
+@media (max-width: 1024px) {
+  .header__logo {
+    width: 87px;
+    height: 55px;
+    padding-left: 0px;
+  }
+
+  .header__list {
+    gap: 20px;
+  }
+
+  .header__item {
+    font-size: 18px;
+    line-height: 122%;
+  }
+
+  .header__button {
+    border: 3px solid var(--main-color);
+    border-radius: 8px;
+    padding: 9px 29px 10px;
+    width: 229px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 7px 23px 8px;
+  }
+  
+}
