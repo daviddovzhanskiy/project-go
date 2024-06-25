@@ -410,12 +410,9 @@
 
 @media (max-width: 1024px) {
   .reservation__title {
-    text-align: center;
-    margin-bottom: 40px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
-    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 133%;
   }
   
   .reservation-page {
@@ -423,188 +420,86 @@
   }
   
   .section-custom {
-    padding: 80px 0;
+    padding: 60px 0;
   }
   
   /* Стилизация одинаковых элементов формы */
   
-  .reservation__fieldset {
-    border: none;
-    padding: 0;
-  }
-  
   .reservation__legend {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
+    margin-bottom: 26px;
+    line-height: 117%;
   }
   
   /* Стилизация первой секции формы */
   
   .reservation__subtitle {
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
+    margin-bottom: 26px;
+    line-height: 117%;
   }
   
   .reservation__box_block_first {
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
+    gap: 61px;
     margin-bottom: 60px;
   }
   
   .reservation__label_block_first {
-    padding: 7px 15px 8px;
-    border-radius: 8px;
-    background-color: var(--white-color);
-    user-select: none;
-    
-    width: 250px;
-    height: 55px;
-    flex-shrink: 0;
-  
-    color: var(--black-color);
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 40px;
-    text-transform: uppercase;
-    z-index: 1;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out, outline 0.2s ease-in-out;
-  }
-  .reservation__label_block_first:has(.reservation__input_block_first:checked) {
-    background-color: var(--second-color);
-    outline: none;
-  }
-  
-  .reservation__label_block_first:has(.reservation__input_block_first:focus) {
-    background-color: var(--second-color);
-    outline: 3px solid var(--white-color);
-  }
-  
-  .reservation__label_block_first:hover {
-    background-color: var(--hover-first);
-    outline: 3px solid var(--hover-second);
-  }
-  
-  .reservation__label_block_first:active {
-    background-color: var(--second-color);
-    outline: 3px solid var(--white-color);
-  }
-  
-  .reservation__input_block_first{
-    appearance: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 180px;
+    height: 44px;
+    font-size: 20px;
+    line-height: 120%;
   }
   
   /* Стилизация второй секции формы */
   
   .reservation__container-small {
-    max-width: 1040px;
-    padding: 0 30px;
-    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0;
   }
   
   .reservation__box_block_second {
-    display: flex;
     margin-bottom: 60px;
-  
-    justify-content: space-between;
   }
   
   .reservation__legend_block_second {
     margin-bottom: 23px;
-  
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
-  }
-  
-  .reservation__box-content_block_second {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    line-height: 117%;
+    text-align: start;
   }
   
   .reservation__label_block_second {
-    width: 222px;
-    display: flex;
-    gap: 12px;
-  
-    font-size: 22px;
-    font-weight: 400;
+    width: 250px;
   }
-  
-  .reservation__input_block_second {
-    position: relative;
-    width: 25px;
-    height: 25px;
-    outline: none;
-    cursor: pointer;
-    transition: outline 0.2s ease-in;
-  }
-  
-  .reservation__input_block_second:focus {
-    outline: 1px solid var(--main-color);
-  }   
   
   /* Стилизация третьей секции формы */
   
   .reservation__box_block_third {
-    display: flex;
-    gap: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
-  
-  .reservation__box-third_position_left {
-    position: relative;
-    width: 300px;
-    flex-wrap: wrap;
-    gap: 36px 32px;
-    display: flex;
+
+  .reservation__legend_margin_diff {
+    margin-bottom: 48px;
+    line-height: 117%;
   }
   
   .reservation__label-date {
-    position:absolute;
-    top: -23px;
-    left: 0;
-  
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
+    top: -22px;
+    line-height: 114%;
   }
   
   .reservation__label-time {
-    position:absolute;
-    top: -23px;
-    left: 166px;
-  
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
+    top: -22px;
+    line-height: 114%;
   }
   
   .reservation__label-number {
-    position:absolute;
-    top: 65px;
-    left: 0;
-  
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
+    top: 66px;
+    line-height: 114%;
   }
   
   .reservation__box-third_position_middle {
-    position: relative;
-    width: 280px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 36px 32px;
+    width: 251px;
   }
   
   .reservation__label-name {
