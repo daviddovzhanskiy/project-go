@@ -52,3 +52,32 @@
 .halls__element_img_neon {
   background-image: url("../img/neon-style.jpg");
 }
+
+@media (max-width: 1024px) {
+  .section_padding_custom {
+    padding-bottom: 70px;
+  }
+
+  .halls__title {
+    margin-bottom: 36px;
+    font-size: 30px;
+    line-height: 133%;
+  }
+
+  .halls__subtitle {
+    font-size: 50px;
+    line-height: 120%;
+  }
+  
+  .halls__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .halls__element {
+    width: 442px;
+    height: 267px;
+  }
+}
