@@ -78,7 +78,7 @@
 
 @media (max-width: 1024px) {
   .have-page {
-    padding: 53px 0px 40px;
+    padding: 53px 0px 93px;
   }
   
   .we-have__box-title {
@@ -91,23 +91,12 @@
     line-height: 133%;
   } 
   
-  .we-have__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  
   .we-have__item {
     display: flex;
     align-items: flex-end;
-    padding: 6px 40px;
-    width: 380px;
-    height: 228px;
-  
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: transform 0.3s ease-in-out;
+    padding: 0;
+    width: 287px;
+    height: 172px;
   }
   
   .we-have__item:hover {
@@ -116,39 +105,41 @@
   
   .we-have__item_background_vr {
     background-image: url(../img/vr.png);
+    padding: 30px 20px;
   }
   
   .we-have__item_background_audio {
     background-image: url(../img/audio.png);
+    padding: 2px 20px;
   }
   
   .we-have__item_background_karaoke {
     background-image: url(../img/karaoke.png);
+    padding: 16px 20px;
   }
   
   .we-have__item_background_games {
     background-image: url(../img/games.png);
+    padding: 16px 20px;
   }
   
   .we-have__item_background_films {
     background-image: url(../img/films.png);
+    padding: 5px 20px;
   }
   
   .we-have__item_background_playstation {
     background-image: url(../img/playstation.png);
+    padding: 16px 20px;
   }
   
   .we-have__item_position_down {
-    transform: translateY(70px);
+    transform: translateY(53px);
   }
   
   .we-have__item-text {
-    height: 56px;
-  
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
-    white-space: pre-line;
+    height: auto;
+    line-height: 140%;
   }
 }
 
