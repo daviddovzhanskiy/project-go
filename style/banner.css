@@ -133,3 +133,82 @@
 .banner__link-down:active {
   background-image: url("../img/down-active.svg");
 }
+
+@media (max-width: 1024px) {
+  .banner {
+    height: 583px;
+  }
+  
+  .banner::after {
+    width: 453px;
+    height: 512px;
+    right: 60px;
+  }
+  
+  .banner__title {
+    font-size: 120px;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+    margin-bottom: 20px;
+  }
+  
+  .banner__subtitle {
+    font-size: 22px;
+    line-height: 136%;
+  }
+  
+  .banner__box-content {
+    margin-bottom: 80px;
+  }
+  
+  .banner__box-text_position_left {
+    width: 168px;
+  }
+  
+  .banner__box-text_position_right {
+    width: 140px;
+  }
+  
+  .banner__text {
+    font-size: 26px;
+  }
+  
+  .banner__text_size_100 {
+    font-size: 80px;
+  }
+  
+  .banner__text_size_75 {
+    font-size: 60px;
+  }
+  
+  .banner__button {
+    padding: 17px 48px;
+    font-size: 22px;
+    line-height: 136%;
+    margin-left: 39px;
+  }
+  
+  .banner__button::before {
+    filter: blur(20px);
+  }
+  
+  .banner__link-down {
+    width: 67px;
+    height: 67px;
+    position: absolute;
+    right: 479px;
+    bottom: 46px;
+  }
+  
+  .banner__link-down:hover {
+    background-image: url("../img/down-hover.svg");
+  }
+  
+  .banner__link-down:focus {
+    background-image: url("../img/down-focus.svg");
+  }
+  
+  .banner__link-down:active {
+    background-image: url("../img/down-active.svg");
+  }
+}
