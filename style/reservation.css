@@ -503,214 +503,53 @@
   }
   
   .reservation__label-name {
-    position:absolute;
-    top: -23px;
-    left: 0;
-  
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
+    top: -22px;
+    line-height: 114%;
   }
   
   .reservation__label-surname {
-    position:absolute;
-    top: 65px;
-    left: 0;
-  
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
+    top: 66px;
+    line-height: 114%;
   }
   
   .reservation__box-third_position_right {
-    position: relative;
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 36px 32px;
+    width: 254px;
   }
   
   .reservation__label-tel {
-    position:absolute;
-    top: -23px;
-    left: 0;
-  
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
+    top: -22px;
+    line-height: 114%;
   }
   
   .reservation__label-email {
-    position:absolute;
-    top: 65px;
-    left: 0;
-  
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-  }
-  
-  /* Стилизация инпута date в третьей секции формы */
-  
-  .reservation__input-date {
-    position: relative;
-    width: 134px;
-    height: 52px;
-    border: none;
-    padding: 0;
-    outline: none;
-    transition: outline 0.2s ease-in;
-  }
-  
-  .reservation__input-date:focus {
-    outline: 2px solid var(--main-color);
-  }
-  
-  .reservation__input-date::-webkit-datetime-edit {
-    padding-left: 10px;
-    padding-top: 2px;
-  }
-  
-  .reservation__input-date::-webkit-calendar-picker-indicator {
-    padding-right: 10px;
-    background-image: url("../img/picker.svg");
-    background-repeat: no-repeat;
-    cursor: pointer
-  }
-  
-  
-  /* Стилизация инпута time в третьей секции формы */
-  
-  .reservation__input-time {
-    position: relative;
-    width: 134px;
-    height: 52px;
-    border: none;
-    padding: 0;
-    outline: none;
-    transition: outline 0.2s ease-in;
-  }
-  
-  .reservation__input-time:focus {
-    outline: 2px solid var(--main-color);
-  }
-  
-  .reservation__input-time::-webkit-datetime-edit-fields-wrapper {
-    padding-left: 10px;
-    padding-top: 2px;
-    font-size: 16px;
-  }
-  
-  .reservation__input-time::-webkit-calendar-picker-indicator {
-    padding-right: 10px;
-    background-image: url("../img/picker.svg");
-    background-repeat: no-repeat;
-    cursor: pointer
-  }
-  
-  /* Стилизация инпута number в третьей секции формы */
-  
-  .reservation__input-number {
-    width: 300px;
-    height: 52px;
-    border: none;
-    padding: 0;
-    padding-left: 10px;
-    outline: none;
-    transition: outline 0.2s ease-in;
-  }
-  
-  .reservation__input-number:focus {
-    outline: 2px solid var(--main-color);
+    top: 66px;
+    line-height: 114%;
   }
   
   /* Стилизация инпутов текстовых в третьей секции формы */ 
   .reservation__input-name {
-    width: 280px;
-    height: 52px;
-    border: none;
-    padding: 0 10px;
-    outline: none;
-    transition: outline 0.2s ease-in;
-  }
-  
-  .reservation__input-name:focus {
-    outline: 2px solid var(--main-color);
+    width: 251px;
   }
   
   .reservation__input-surname {
-    width: 280px;
-    height: 52px;
-    border: none;
-    padding: 0 10px;
-    outline: none;
-    transition: outline 0.2s ease-in;
-  }
-  
-  .reservation__input-surname:focus {
-    outline: 2px solid var(--main-color);
+    width: 251px;
   }
   
   .reservation__input-tel {
-    width: 300px;
-    height: 52px;
-    border: none;
-    padding: 0 10px;
-    outline: none;
-    transition: outline 0.2s ease-in;
-  }
-  
-  .reservation__input-tel:focus {
-    outline: 2px solid var(--main-color);
+    width: 254px;
   }
   
   .reservation__input-email {
-    width: 300px;
-    height: 52px;
-    border: none;
-    padding: 0 10px;
-    outline: none;
-    transition: outline 0.2s ease-in;
-  }
-  
-  .reservation__input-email:focus {
-    outline: 2px solid var(--main-color);
+    width: 254px;
   }
   
   /* Стилизация секции с кнопкой */
   
-  .reservation__sending-area {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
   .reservation__button {
-    width: 300px;
-    height: 60px;
-    padding: 16px 50px;
-    color: var(--second-color);
-    background-color: var(--white-color);
-    border-radius: 10px;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 28px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: outline 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  }
-  
-  .reservation__button:hover {
-    background-color: var(--hover-first);
-    outline: 3px solid var(--second-color);
-  }
-  
-  .reservation__button:focus {
-    background-color: var(--white-color);
-    outline: 3px solid var(--second-color);
-  }
-  
-  .reservation__button:active {
-    background-color: var(--hover-first);
-    outline: none;
+    width: 254px;
+    height: 50px;
+    padding: 13px 45px;
+    font-size: 18px;
+    line-height: 133%;
   }
 }
