@@ -60,3 +60,50 @@
   font-weight: 400;
   line-height: 28px;
 }
+
+@media (max-width: 1024px) {
+  .review-page {
+    padding-bottom: 40px;
+  }
+
+  .container-review {
+    max-width: 810px;
+  }
+  
+  .review__title {
+    margin-bottom: 26px;
+    font-size: 30px;
+    line-height: 133%;
+  }
+  
+  .review__element {
+    margin-bottom: 40px;
+  }
+  
+  .review__image {
+    margin: 0 auto 21px;
+    width: 172px;
+  }
+
+  .review__figure {
+    margin-right: 12px;
+  }
+
+  .review__figure::before {
+    left: 26px;
+    width: 172px;
+    height: 172px;
+  }
+  
+  .review__caption {
+    font-size: 18px;
+    line-height: 144%;
+    width: 224px;
+  }
+  
+  .review__text {
+    padding-top: 33px;
+    font-size: 18px;
+    line-height: 144%;
+  }  
+}
