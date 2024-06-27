@@ -88,3 +88,63 @@
   white-space: pre-line;
   float: right;
 }
+
+@media (max-width: 1024px) {
+  .about-page {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  .about__title {
+    margin-bottom: 26px;
+    font-size: 30px;
+    line-height: 133%;
+  }
+  
+  .about__box-content_position_left {
+    margin-right: 39px;
+    max-width: 420px;
+    max-height: 417px;
+  }
+  
+  .about__image {
+    max-width: 420px;
+  }
+  
+  .about__box-content_position_right {
+    max-width: 444px;
+    max-height: 504px;
+  }
+  
+  .about__text {
+    margin-bottom: 26px;
+    font-size: 18px;
+    line-height: 133%;
+  }
+  
+  .about__qoute-symbol {
+    font-size: 30px;
+    line-height: 120%;
+  }
+  
+  .about__quote {
+    margin-bottom: 13px;
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 120%;
+  }
+  
+  .about__quote::after {
+    font-size: 30px;
+    line-height: 120%;
+  }
+  
+  .about__author-image {
+    margin-right: 35px;
+  }
+  
+  .about__author-name {
+    font-size: 18px;
+    line-height: 144%;
+  }
+}
