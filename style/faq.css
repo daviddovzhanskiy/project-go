@@ -85,3 +85,7 @@
 .faq__icon:nth-child(even) {
   background-image: url("../img/open-purple.svg");
 } */
+
+@media (max-width: 1024px) {
+
+}
