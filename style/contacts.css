@@ -122,3 +122,58 @@
 .contacts__footer-text:hover {
   color: var(--hover-third);
 }
+
+@media (max-width: 1024px) {
+  .contacts__box-wrapper {
+    gap: 60px;
+    margin-bottom: 92px;
+  }
+  
+  .contacts__box-content_position_left {
+    width: 303px;
+  }
+  
+  .contacts__map-image {
+    width: 542px;
+    height: 274px;
+  }
+  
+  .contacts__title {
+    margin-bottom: 26px;
+    font-size: 30px;
+    line-height: 133%;
+  }
+  
+  .contacts__address-area {
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 117%;
+  }
+  
+  .contacts__box-address_block_place {
+    margin-bottom: 40px;
+  }
+  
+  .contacts__address-icon {
+    margin-right: 13px;
+    width: 26px;
+    height: 26px;
+  }
+  
+  .contacts__box-address_block_phone {
+    margin-bottom: 7px;
+  }
+  
+  .contacts__navigation-list {
+    gap: 26px;
+  }
+  
+  .contacts__box-footer_position_right {
+    gap: 6px;
+  }
+  
+  .contacts__footer-text {
+    font-size: 14px;
+    line-height: 114%;
+  }
+}
