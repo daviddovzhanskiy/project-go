@@ -109,3 +109,11 @@ iframe {
     padding-bottom: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+}

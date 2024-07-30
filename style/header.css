@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.header__box-burger {
+  display: none;
+}
+
 .header__logo {
   display: block;
   width: 120px;
@@ -86,5 +90,23 @@
     font-size: 18px;
     line-height: 100%;
     padding: 7px 23px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__box-burger {
+    display: block;
+    margin-right: 150px;  
+    /* Исправить - почему space beetwen не работает */
+  }
+
+  .header__burger {
+    background-image: url(../img/burger.svg);
+    width: 54px;
+    height: 29px;
+  }
+
+  .header__list {
+    display: none;
   }
 }
