@@ -96,8 +96,6 @@
 @media (max-width: 768px) {
   .header__box-burger {
     display: block;
-    margin-right: 150px;  
-    /* Исправить - почему space beetwen не работает */
   }
 
   .header__burger {
@@ -106,7 +104,7 @@
     height: 29px;
   }
 
-  .header__list {
+  .header__box-nav {
     display: none;
   }
 }
