@@ -553,3 +553,149 @@
     line-height: 133%;
   }
 }
+
+@media (max-width: 768px) {
+  .reservation__title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 133%;
+  }
+  
+  .reservation-page {
+    background-color: var(--background-first);
+  }
+  
+  .section-custom {
+    padding: 60px 0;
+  }
+  
+  /* Стилизация одинаковых элементов формы */
+  
+  .reservation__legend {
+    margin-bottom: 26px;
+    line-height: 117%;
+  }
+  
+  /* Стилизация первой секции формы */
+  
+  .reservation__subtitle {
+    margin-bottom: 26px;
+    line-height: 117%;
+  }
+  
+  .reservation__box_block_first {
+    gap: 61px;
+    margin-bottom: 60px;
+  }
+  
+  .reservation__label_block_first {
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 180px;
+    height: 44px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+  
+  /* Стилизация второй секции формы */
+  
+  .reservation__container-small {
+    max-width: 1024px;
+    padding: 0;
+  }
+  
+  .reservation__box_block_second {
+    margin-bottom: 60px;
+  }
+  
+  .reservation__legend_block_second {
+    margin-bottom: 23px;
+    line-height: 117%;
+    text-align: start;
+  }
+  
+  .reservation__label_block_second {
+    width: 250px;
+  }
+  
+  /* Стилизация третьей секции формы */
+  
+  .reservation__box_block_third {
+    margin-bottom: 50px;
+  }
+
+  .reservation__legend_margin_diff {
+    margin-bottom: 48px;
+    line-height: 117%;
+  }
+  
+  .reservation__label-date {
+    top: -22px;
+    line-height: 114%;
+  }
+  
+  .reservation__label-time {
+    top: -22px;
+    line-height: 114%;
+  }
+  
+  .reservation__label-number {
+    top: 66px;
+    line-height: 114%;
+  }
+  
+  .reservation__box-third_position_middle {
+    width: 251px;
+  }
+  
+  .reservation__label-name {
+    top: -22px;
+    line-height: 114%;
+  }
+  
+  .reservation__label-surname {
+    top: 66px;
+    line-height: 114%;
+  }
+  
+  .reservation__box-third_position_right {
+    width: 254px;
+  }
+  
+  .reservation__label-tel {
+    top: -22px;
+    line-height: 114%;
+  }
+  
+  .reservation__label-email {
+    top: 66px;
+    line-height: 114%;
+  }
+  
+  /* Стилизация инпутов текстовых в третьей секции формы */ 
+  .reservation__input-name {
+    width: 251px;
+  }
+  
+  .reservation__input-surname {
+    width: 251px;
+  }
+  
+  .reservation__input-tel {
+    width: 254px;
+  }
+  
+  .reservation__input-email {
+    width: 254px;
+  }
+  
+  /* Стилизация секции с кнопкой */
+  
+  .reservation__button {
+    width: 254px;
+    height: 50px;
+    padding: 13px 45px;
+    font-size: 18px;
+    line-height: 133%;
+  }
+}
