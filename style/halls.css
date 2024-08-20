@@ -24,6 +24,7 @@
   font-size: 70px;
   line-height: 80px;
   text-transform: uppercase;
+  width: 252px;
 }
 
 .halls__element {
@@ -79,5 +80,36 @@
   .halls__element {
     width: 442px;
     height: 267px;
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_padding_custom {
+    padding-bottom: 62px;
+  }
+
+  .halls__title {
+    margin-bottom: 35px;
+    font-size: 24px;
+    line-height: 150%;
+  }
+
+  .halls__subtitle {
+    font-size: 40px;
+    line-height: 125%;
+    width: 150px;
+  }
+  
+  .halls__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .halls__element {
+    width: 334px;
+    height: 200px;
   }
 }
