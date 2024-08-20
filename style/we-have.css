@@ -145,25 +145,30 @@
 
 @media (max-width: 768px) {
   .have-page {
-    padding: 50px 0px 93px;  /* сделал только 50 верно, 93 нужно будет снизу ровнять ещё*/
+    padding: 50px 0px 30px;
   }
   
   .we-have__box-title {
-    width: 600px;
-    margin: 0 auto 36px;
+    width: 500px;
+    margin: 0 auto 30px;
+
   }
   
   .we-have__title {
-    font-size: 30px;
-    line-height: 133%;
+    font-size: 24px;
+    line-height: 150%;
   } 
+
+  .we-have__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
   
   .we-have__item {
-    display: flex;
-    align-items: flex-end;
-    padding: 0;
-    width: 287px;
-    height: 172px;
+    width: 334px;
+    height: 200px;
   }
   
   .we-have__item:hover {
@@ -171,42 +176,31 @@
   }
   
   .we-have__item_background_vr {
-    background-image: url(../img/vr.png);
-    padding: 30px 20px;
+    padding: 40px 30px;
   }
   
   .we-have__item_background_audio {
-    background-image: url(../img/audio.png);
-    padding: 2px 20px;
+    padding: 12px 30px;
   }
   
   .we-have__item_background_karaoke {
-    background-image: url(../img/karaoke.png);
-    padding: 16px 20px;
+    padding: 40px 30px;
   }
   
   .we-have__item_background_games {
-    background-image: url(../img/games.png);
-    padding: 16px 20px;
+    padding: 40px 30px;
   }
   
   .we-have__item_background_films {
-    background-image: url(../img/films.png);
-    padding: 5px 20px;
+    padding: 12px 30px;
   }
   
   .we-have__item_background_playstation {
-    background-image: url(../img/playstation.png);
-    padding: 16px 20px;
+    padding: 40px 30px;
   }
   
   .we-have__item_position_down {
-    transform: translateY(53px);
-  }
-  
-  .we-have__item-text {
-    height: auto;
-    line-height: 140%;
+    transform: none;
   }
 }
 
