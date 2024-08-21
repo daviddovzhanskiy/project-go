@@ -556,96 +556,128 @@
 
 @media (max-width: 768px) {
   .reservation__title {
-    margin-bottom: 25px;
-    font-size: 30px;
-    line-height: 133%;
-  }
-  
-  .reservation-page {
-    background-color: var(--background-first);
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 150%;
   }
   
   .section-custom {
-    padding: 60px 0;
+    padding: 50px 0;
   }
   
   /* Стилизация одинаковых элементов формы */
   
   .reservation__legend {
-    margin-bottom: 26px;
+    font-size: 24px;
     line-height: 117%;
+    margin-bottom: 30px;
   }
   
   /* Стилизация первой секции формы */
   
   .reservation__subtitle {
-    margin-bottom: 26px;
+    margin-bottom: 30px;
     line-height: 117%;
+    font-size: 24px;
   }
   
   .reservation__box_block_first {
-    gap: 61px;
-    margin-bottom: 60px;
+    gap: 29px;
+    margin-bottom: 50px;
   }
   
   .reservation__label_block_first {
-    padding: 10px 20px;
+    padding: 9px 20px;
     border-radius: 6px;
-    width: 180px;
-    height: 44px;
-    font-size: 20px;
-    line-height: 120%;
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 125%;
   }
   
   /* Стилизация второй секции формы */
   
   .reservation__container-small {
-    max-width: 1024px;
+    max-width: 688px;
     padding: 0;
   }
   
   .reservation__box_block_second {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 66px;
+    justify-content: unset;
   }
   
   .reservation__legend_block_second {
-    margin-bottom: 23px;
+    margin-bottom: 24px;
     line-height: 117%;
     text-align: start;
   }
   
   .reservation__label_block_second {
-    width: 250px;
+    width: 301px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .reservation__input_block_second {
+    width: 40px;
+    height: 40px;
   }
   
   /* Стилизация третьей секции формы */
   
   .reservation__box_block_third {
-    margin-bottom: 50px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+    gap: 64px;
+    /* flex-direction: column; */
   }
 
   .reservation__legend_margin_diff {
-    margin-bottom: 48px;
-    line-height: 117%;
+    margin-bottom: 40px;
+  }
+
+  .reservation__box-third_position_left {
+    position: relative;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 14px;
+    display: flex;
+  }
+
+  .reservation__input-number {
+    width: 300px;
+    height: 52px;
+    padding-left: 20px;
+    margin-left: 92px;
   }
   
   .reservation__label-date {
-    top: -22px;
+    top: -20px;
     line-height: 114%;
+    font-size: 14px;
   }
   
   .reservation__label-time {
-    top: -22px;
+    top: -20px;
+    left: 148px;
     line-height: 114%;
+    font-size: 14px;
   }
   
   .reservation__label-number {
-    top: 66px;
+    top: -20px;
+    left: 388px;
     line-height: 114%;
   }
   
   .reservation__box-third_position_middle {
-    width: 251px;
+    width: 280px;
   }
   
   .reservation__label-name {
@@ -659,7 +691,8 @@
   }
   
   .reservation__box-third_position_right {
-    width: 254px;
+    width: 300px;
+    margin-left: 44px;
   }
   
   .reservation__label-tel {
@@ -674,28 +707,28 @@
   
   /* Стилизация инпутов текстовых в третьей секции формы */ 
   .reservation__input-name {
-    width: 251px;
+    width: 280px;
   }
   
   .reservation__input-surname {
-    width: 251px;
+    width: 280px;
   }
   
   .reservation__input-tel {
-    width: 254px;
+    width: 300px;
   }
   
   .reservation__input-email {
-    width: 254px;
+    width: 300px;
   }
   
   /* Стилизация секции с кнопкой */
   
   .reservation__button {
-    width: 254px;
-    height: 50px;
-    padding: 13px 45px;
-    font-size: 18px;
-    line-height: 133%;
+    width: 300px;
+    height: 60px;
+    padding: 16px 50px;
+    font-size: 22px;
+    line-height: 127%;
   }
 }
