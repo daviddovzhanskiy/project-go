@@ -101,4 +101,51 @@
     font-size: 20px;
     line-height: 120%;
   }
+
+  .faq__text_color_white {
+    color: var(--text-first);
+  }
+
+  .faq__element:nth-child(even) {
+    background-color: var(--white-color);
+  }
+
+  .faq__icon_color_white {
+    background-image: url(../img/open-purple.svg);
+  }
 }
+
+@media (max-width: 768px) {
+  .faq-page {
+    padding-bottom: 24px;
+  }
+
+  .faq__title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 108%;
+  }
+  
+  .faq__element {
+    padding: 23px 65px 24px 54px;
+  }
+  
+  .faq__element:not(:last-child)  {
+    margin-bottom: 16px;
+  }
+
+  .faq__element:last-child  {
+    display: none;
+  }
+  
+  .faq__icon {
+    width: 46px;
+    height: 46px;
+  }
+  
+  .faq__text {
+    font-size: 18px;
+    line-height: 133%;
+  }
+}
+
