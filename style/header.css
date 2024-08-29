@@ -108,3 +108,39 @@
     display: none;
   }
 }
+
+@media (max-width: 320px) {
+  .header__box-burger {
+    display: block;
+  }
+  
+  .header__box-button {
+    display: none;
+  }
+
+  .header__burger {
+    background-image: url(../img/burger.svg);
+    width: 54px;
+    height: 29px;
+  }
+
+  .header {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .header__logo {
+    width: 66px;
+    height: 42px;
+  }
+
+  .header__burger {
+    background-image: url(../img/burger-320.svg);
+    width: 39px;
+    height: 20px;
+}
+
+  .header__box-nav {
+    display: none;
+  }
+}
