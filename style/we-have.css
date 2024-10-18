@@ -204,3 +204,64 @@
   }
 }
 
+@media (max-width: 320px) {
+  .have-page {
+    padding: 30px 0px 30px;
+  }
+  
+  .we-have__box-title {
+    width: 500px;
+    margin: 0 auto 30px;
+
+  }
+  
+  .we-have__title {
+    font-size: 24px;
+    line-height: 150%;
+  } 
+
+  .we-have__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .we-have__item {
+    width: 334px;
+    height: 200px;
+  }
+  
+  .we-have__item:hover {
+    transform: scale(1.1);
+  }
+  
+  .we-have__item_background_vr {
+    padding: 40px 30px;
+  }
+  
+  .we-have__item_background_audio {
+    padding: 12px 30px;
+  }
+  
+  .we-have__item_background_karaoke {
+    padding: 40px 30px;
+  }
+  
+  .we-have__item_background_games {
+    padding: 40px 30px;
+  }
+  
+  .we-have__item_background_films {
+    padding: 12px 30px;
+  }
+  
+  .we-have__item_background_playstation {
+    padding: 40px 30px;
+  }
+  
+  .we-have__item_position_down {
+    transform: none;
+  }
+}
+
